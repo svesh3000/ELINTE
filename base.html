@@ -1,0 +1,2380 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>ELINTE</title>
+    <link rel="icon" type="image/png" href="logo4.png"> 
+</head>
+<body class="background">
+    <div class='header-dop'>
+        <a href="index.html">
+            <div class='logo'>
+                <img src='logo10.png' alt=''>
+            </div>
+        </a>
+        <div class='stripe'>
+            <img src='stripe2.png' alt=''>
+        </div>
+        <div class='header_text'>
+            <h3>Electronic</h3>
+            <h3>Information</h3>
+            <h3>Technology</h3>
+        </div>
+        <div class='main-menu-holder'>
+            <button id='burger' class='menu-holder'>
+                <div id='menu' class='menu'>
+                    <img src='menu.png' alt=''>
+                </div>
+                <div id='menu2' class='menu2'>
+                    <img src='menu2.png' alt=''>
+                </div>
+            </button>
+            <div id='pole' class='pole disp'>
+                <div id='cross' class='cross-holder'>
+                     <div class='cross'>
+                        <img src='cross.png' alt=''>
+                    </div>
+                    <div class='cross2'>
+                        <img src='cross2.png' alt=''>
+                    </div>
+                </div>
+                <div class='menu-text-header'>ELINTE</div>
+                <div class='menu-line'>
+                    <img src='menu-line.png' alt=''>
+                </div>
+                <div class='menu-text-holder'>
+                    <div>
+                        <a class='menu-text' href='index.html'>- Home</a>
+                    </div>
+                    <div>
+                        <a class='menu-text' href='html.html'>- Словарь html</a>
+                    </div>
+                    <div>
+                        <a class='menu-text' href='css.html'>- Словарь css</a>
+                    </div>
+                    <div>
+                        <a class='menu-text' href='example.html'>- Пример создания сайта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='dop-header' id='top'>
+        <a class='dop-header-text' href="index.html">
+            <div>
+                Home
+            </div>
+        </a>
+        <div class='vertical'>
+            <img src='vertical.png' alt="">
+        </div>
+        <a class='dop-header-text' href="html.html">
+            <div>
+                Словарь html
+            </div>
+        </a>
+        <div class='vertical'>
+            <img src='vertical.png' alt="">
+        </div>
+        <a class='dop-header-text' href="css.html">
+            <div>
+                Словарь css
+            </div>
+        </a>
+        <div class='vertical'>
+            <img src='vertical.png' alt="">
+        </div>
+        <a class='dop-header-text' href="example.html">
+            <div>
+                Пример создания сайта
+            </div>
+        </a>
+    </div>
+    <a href="#top" class="back-to-top">▲</a>
+    <!-- The video -->
+    <div class="video">
+        <video autoplay muted loop id="myVideo">
+          <source src="1104021_1080p_Multicultural_Detail_1920x1080.mp4" type="video/mp4">
+        </video>
+        <div class="content">        
+            <h1 class="content-name" style="margin-top: 100px;">Основы создания сайта</h1>
+            <p class="content-text">На этой странице вы научитесь с нуля создавать простые сайты. Вы научитесь пользоваться Brackets, узнаете самые важные и необходимые теги и селекторы. Просмотрите все уроки, они представлены в виде слайдеров с поясняющим текстом. После того, как пройдёте этот курс, переходите на страницу "Пример создания сайта". Успешного вам обучения!</p>
+        </div>
+    </div>
+    <!-- The video -->
+    <h1 class="plan-name" style="margin-bottom: -5px;">Темы уроков</h1>
+    <div class="plan-conteiner-box" style="margin-bottom: -5px; width: 75%;">
+        <div><a  href="#sec1" class="scroll">1. Скелет документа</a></div>
+        <div><a href="#sec2" class="scroll">2. Блочные и строчные элементы, таблицы</a></div>
+        <div><a href="#sec3" class="scroll">3. Подключение CSS, основные селекторы редактирования текста</a></div>
+        <div><a href="#sec4" class="scroll">4. Дополнительные селекторы редактирования</a></div>
+        <div><a href="#sec5" class="scroll">5. Внутренний отступ – padding</a></div>
+        <div><a  href="#sec6" class="scroll">6. Внешний отступ – margin</a></div>
+        <div><a href="#sec7" class="scroll">7. Граница – border</a></div>
+        <div><a href="#sec8" class="scroll">8. Тег span</a></div>
+        <div><a href="#sec9" class="scroll">9. Фон на странице (часть 1)</a></div>
+        <div><a href="#sec10" class="scroll">10. Фон на странице (часть 2)</a></div>
+        <div><a href="#sec11" class="scroll">11. Форма ввода (часть 1)</a></div>
+        <div><a href="#sec12" class="scroll">12. Форма ввода (часть 2)</a></div>
+        <div><a href="#sec13" class="scroll">13. Псевдоклассы (часть 1)</a></div>
+        <div><a href="#sec14" class="scroll">14. Позиционирование</a></div>
+        <div><a href="#sec15" class="scroll">15. border-radius, box-shadow, box-sizing, opacity и transition</a></div>
+        <div><a href="#sec16" class="scroll">16. Flex box</a></div>
+        <div><a href="#sec17" class="scroll">17. Псевдоклассы (часть 2)</a></div>
+    </div>
+    <section class="name-lesson" id="sec1">
+        Первый урок: Скелет документа
+    </section>
+    <p class="lesson-note">HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.</p>
+    <!-- 1 -->
+    <div class="slideshow-container">
+        <div class="mySlides1 fade">
+            <img src="brackets.jpg" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Скачайте редактор кода, например, Brackets.</div>
+            </div>
+        </div>
+
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Создайте папку на рабочем столе, щёлкните по ней правой кнопкой мыши и нажмите на Open as Brackets project. Перед вами открылся редактор кода.</div>
+            </div>
+        </div>
+
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Кликнете правой кнопкой мыши по полю слева, нажмите на Новый файл. Назовите его index.html. Вы создали файл, в котором будете прописывать структуру вебсайта.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Напишите строчку, которую вы видите на картинке (Она нужна для того, чтобы браузер понял, какой документ перед ним).</div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage5.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Напишите скелет документа, его вы можете увидеть на картинке.</div>
+                <div>Скелет состоит из head (головы документа) и body (тела документа). В теле документа будет проходить сам процесс создания сайта. Всё, что будет там находиться будет называться тегами.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage6.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>В head (между &lt;head&gt; и &lt;/head&gt;) нужно обязательно прописать: &lt;meta-charset=”utf-8”&gt;. (Это специальный тег о кодировке)</div>
+                <div>Также в head можно прописать заголовок страницы: &lt;title&gt;&lt;/title&gt; (Например, &lt;title&gt;Первый урок&lt;/title&gt;)
+                </div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage7-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Попробуйте написать что-нибудь в body, например, “Привет мир”</div>
+                <div>Чтобы сохранить документ нажмите Ctrl+S или F5</div>
+                <div>Чтобы открыть ваш сайт в браузере, зайдите в папку на рабочем столе и кликнете по файлу с названием index. Как вы видите, на экране появилась надпись “Привет мир”. Таким образом можно выводить текст, но так лучше не делать.
+                </div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage7-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Попробуйте написать что-нибудь в body, например, “Привет мир”</div>
+                <div>Чтобы сохранить документ нажмите Ctrl+S или F5</div>
+                <div>Чтобы открыть ваш сайт в браузере, зайдите в папку на рабочем столе и кликнете по файлу с названием index. Как вы видите, на экране появилась надпись “Привет мир”. Таким образом можно выводить текст, но так лучше не делать.
+                </div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage8-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Для вывода текста лучше использовать специальные теги, такие как теги заголовков: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;. Эти теги отличаются только размером шрифта.</div>
+                <div>Также есть тег абзаца: &lt;p&gt;. Он обычно используется для большого количества текста.</div>
+                <div>Примечание: в будущем теги будут представлены в инструкции именно так, а не в виде: &lt;h1&gt;&lt;/h1&gt;
+                </div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage8-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Для вывода текста лучше использовать специальные теги, такие как теги заголовков: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;. Эти теги отличаются только размером шрифта.</div>
+                <div>Также есть тег абзаца: &lt;p&gt;. Он обычно используется для большого количества текста.</div>
+                <div>Примечание: в будущем теги будут представлены в инструкции именно так, а не в виде: &lt;h1&gt;&lt;/h1&gt;
+                </div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage8-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Для вывода текста лучше использовать специальные теги, такие как теги заголовков: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;. Эти теги отличаются только размером шрифта.</div>
+                <div>Также есть тег абзаца: &lt;p&gt;. Он обычно используется для большого количества текста.</div>
+                <div>Примечание: в будущем теги будут представлены в инструкции именно так, а не в виде: &lt;h1&gt;&lt;/h1&gt;
+                </div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage8-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Для вывода текста лучше использовать специальные теги, такие как теги заголовков: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;. Эти теги отличаются только размером шрифта.</div>
+                <div>Также есть тег абзаца: &lt;p&gt;. Он обычно используется для большого количества текста.</div>
+                <div>Примечание: в будущем теги будут представлены в инструкции именно так, а не в виде: &lt;h1&gt;&lt;/h1&gt;
+                </div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage9-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Для ссылок на страницы используется тег &lt;a&gt;. Чтобы написать ссылку, после тега &lt;a&gt; нужно указать адрес страницы, a текст ссылки нужно указать внутри тега: &lt;a href=’…….’&gt;…..&lt;a&gt;</div>
+                <div>Пример: &lt;a href=’https://google.ru’&gt;Ссылка&lt;a&gt;</div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage9-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Для ссылок на страницы используется тег &lt;a&gt;. Чтобы написать ссылку, после тега &lt;a&gt; нужно указать адрес страницы, a текст ссылки нужно указать внутри тега: &lt;a href=’…….’&gt;…..&lt;a&gt;</div>
+                <div>Пример: &lt;a href=’https://google.ru’&gt;Ссылка&lt;a&gt;</div>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage10-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Для вывода картинки существует тег &lt;img&gt;. В атрибуте src нужно прописать путь к картинке. Также надо прописать атрибут alt=’’. Его можно оставить пустым, он нужен на случай, если картинка не прогрузится, и тогда на её месте появится текст.</div>
+                <div>Выглядит это так: &lt;img src=’….’ alt=’’&gt;</div>
+                <div>Пример: &lt;img src=’nature.jpg’ alt=’’&gt;</div>
+                <div>После НЕ НУЖНО прописывать &lt;/img&gt;</div>
+            </div>
+        </div>
+        
+        <div class="mySlides1 fade">
+            <img src="lesson1-stage10-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Для вывода картинки существует тег &lt;img&gt;. В атрибуте src нужно прописать путь к картинке. Также надо прописать атрибут alt=’’. Его можно оставить пустым, он нужен на случай, если картинка не прогрузится, и тогда на её месте появится текст.</div>
+                <div>Выглядит это так: &lt;img src=’….’ alt=’’&gt;</div>
+                <div>Пример: &lt;img src=’nature.jpg’ alt=’’&gt;</div>
+                <div>После НЕ НУЖНО прописывать &lt;/img&gt;</div>
+            </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot1" onclick="currentSlide(1,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(2,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(3,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(4,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(5,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(6,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(7,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(8,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(9,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(10,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(11,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(12,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(13,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(14,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(15,0)"></span>
+        <span class="dot dot1" onclick="currentSlide(16,0)"></span>
+    </div>
+    <!-- 1 -->
+    <section class="name-lesson" id="sec2">
+        Второй урок: Блочные и строчные элементы, таблицы
+    </section>
+    <!-- 2 -->
+    <div class="slideshow-container">
+        <div class="mySlides2 fade">
+            <img src="lesson2-stage1-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Блочный тег &lt;div&gt;. Это означает, что если поставить несколько таких элементов, то они будут идти друг за другом в столбец.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides2 fade">
+            <img src="lesson2-stage1-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Блочный тег &lt;div&gt;. Это означает, что если поставить несколько таких элементов, то они будут идти друг за другом в столбец.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides2 fade">
+            <img src="lesson2-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Для строчных элементов существует тег &lt;span&gt;. Если поставить несколько таких элементов, то они будут идти в одну строку. </div>
+            </div>
+        </div> 
+        
+        <div class="mySlides2 fade">
+            <img src="lesson2-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Для строчных элементов существует тег &lt;span&gt;. Если поставить несколько таких элементов, то они будут идти в одну строку. </div>
+            </div>
+        </div> 
+        
+        <div class="mySlides2 fade">
+            <img src="lesson2-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Для создания таблицы нужно сначала прописать тег &lt;table&gt;, а затем уже в нём прописать строки и столбцы.  Сначала надо написать тег &lt;tr&gt; - это строка, а затем в нём пишем тег &lt;th&gt; - это столбец главной строки таблицы, то есть её шапки. Текст в таком теге будет отличаться от тела таблицы шрифтом. Для тела таблицы используют тег &lt;td&gt;, это тоже самое, что и &lt;th&gt;, только шрифт обычный.</div>
+            </div> 
+        </div>
+        
+        <div class="mySlides2 fade">
+            <img src="lesson2-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Для создания таблицы нужно сначала прописать тег &lt;table&gt;, а затем уже в нём прописать строки и столбцы.  Сначала надо написать тег &lt;tr&gt; - это строка, а затем в нём пишем тег &lt;th&gt; - это столбец главной строки таблицы, то есть её шапки. Текст в таком теге будет отличаться от тела таблицы шрифтом. Для тела таблицы используют тег &lt;td&gt;, это тоже самое, что и &lt;th&gt;, только шрифт обычный.</div>
+            </div> 
+        </div>
+        <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+     </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot2" onclick="currentSlide(1,1)"></span>
+        <span class="dot dot2" onclick="currentSlide(2,1)"></span>
+        <span class="dot dot2" onclick="currentSlide(3,1)"></span>
+        <span class="dot dot2" onclick="currentSlide(4,1)"></span>
+        <span class="dot dot2" onclick="currentSlide(5,1)"></span>
+        <span class="dot dot2" onclick="currentSlide(6,1)"></span>
+    </div>
+    <!-- 2 -->
+    <section class="name-lesson" id="sec3">
+        Третий урок: Подключение CSS, основные селекторы редактирования текста
+    </section>
+    <p class="lesson-note">CSS (от англ. Cascading Style Sheets «каскадные таблицы стилей») — формальный язык декорирования и описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки (чаще всего HTML или XHTML).</p>
+    <!-- 3 -->
+    <div class="slideshow-container">
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage1-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Откройте ваш проект. Создайте новый файл под названием style.css. Нажмите на Вид и выберите Vertical Split. Теперь кликните по два раза на ваши файлы (index.html и style.css). Перетащите файл style.css в Right, index.html оставьте в Left.</div>
+            </div>
+        </div>
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage1-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Откройте ваш проект. Создайте новый файл под названием style.css. Нажмите на Вид и выберите Vertical Split. Теперь кликните по два раза на ваши файлы (index.html и style.css). Перетащите файл style.css в Right, index.html оставьте в Left.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>В &lt;head&gt; после мета-тега (&lt;meta-charset=”utf-8”&gt;) ниже нужно прописать &lt;link rel=’stylesheet’ href="style.css”&gt; . В href мы прописываем путь к файлу.</div>
+            </div>
+        </div>  
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы придать чему-либо класс, нужно после первого тега прописать class=’….’ (на месте пропуска должно быть название класса)</div>
+                <div>Пример: &lt;h1 class=’title’&gt;Привет&lt;/h1&gt;</div>
+            </div>
+        </div>
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Чтобы обратиться к классу в файле стилей нужно в файле style.css сначала написать точку, после неё без отступа имя класса, потом пробел и фигурные скобки.</div>
+            </div>
+        </div>  
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Поставьте курсор между фигурными скобками, и напишите font-family: Tahoma, sans-serif;</div>
+                <div>Вы написали первый селектор. Селекторы пишутся так: сначала сам селектор, например, font-family, после нужно поставить двоеточие, затем написать значение, которое этот селектор должен принять и в конце нужно поставить точку с запятой.</div>
+                <div>Селектор font-family принимает значения семейства шрифтов, например, Tahoma или Arial.</div>
+                <div>Особенность этого селектора: После того, как вы напишите шрифт, можно поставить запятую и написать ещё один шрифт, который будет использоваться, если первый шрифт не прогрузится.</div>
+            </div>
+        </div>  
+        
+         <div class="mySlides3 fade">
+            <img src="lesson3-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Поставьте курсор между фигурными скобками, и напишите font-family: Tahoma, sans-serif;</div>
+                <div>Вы написали первый селектор. Селекторы пишутся так: сначала сам селектор, например, font-family, после нужно поставить двоеточие, затем написать значение, которое этот селектор должен принять и в конце нужно поставить точку с запятой.</div>
+                <div>Селектор font-family принимает значения семейства шрифтов, например, Tahoma или Arial.</div>
+                <div>Особенность этого селектора: После того, как вы напишите шрифт, можно поставить запятую и написать ещё один шрифт, который будет использоваться, если первый шрифт не прогрузится.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage6-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Селектор font-size. Он принимает значение в пикселях, и они являются размером шрифта.</div>
+                <div>Примечание:</div>
+                <div>Селекторы в инструкции будут обозначаться по их названиям, то есть, например, не font-size: ……… ; а просто font-size.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage6-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Селектор font-size. Он принимает значение в пикселях, и они являются размером шрифта.</div>
+                <div>Примечание:</div>
+                <div>Селекторы в инструкции будут обозначаться по их названиям, то есть, например, не font-size: ……… ; а просто font-size.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage7-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Селектор color.  Он определяет цвет текста. В него можно написать цвет словами, например, yellow. Но лучше использовать hex код, для этого нужно поставить решётку и написать три нуля, затем поставить курсор после последнего нуля и нажать Ctrl+E. Перед вами откроется палитра, где можно выбрать цвет. После выбора цвета нули заменятся другими символами.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage7-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Селектор color.  Он определяет цвет текста. В него можно написать цвет словами, например, yellow. Но лучше использовать hex код, для этого нужно поставить решётку и написать три нуля, затем поставить курсор после последнего нуля и нажать Ctrl+E. Перед вами откроется палитра, где можно выбрать цвет. После выбора цвета нули заменятся другими символами.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage7-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Селектор color.  Он определяет цвет текста. В него можно написать цвет словами, например, yellow. Но лучше использовать hex код, для этого нужно поставить решётку и написать три нуля, затем поставить курсор после последнего нуля и нажать Ctrl+E. Перед вами откроется палитра, где можно выбрать цвет. После выбора цвета нули заменятся другими символами.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage7-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Селектор color.  Он определяет цвет текста. В него можно написать цвет словами, например, yellow. Но лучше использовать hex код, для этого нужно поставить решётку и написать три нуля, затем поставить курсор после последнего нуля и нажать Ctrl+E. Перед вами откроется палитра, где можно выбрать цвет. После выбора цвета нули заменятся другими символами.</div>
+            </div>
+        </div>  
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage8-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Следующие селекторы примените к тегу &lt;p&gt;, задайте ему класс и впишите в него текст.</div>
+                <div>Теперь в классе text напишите селектор line-height. Этим селектором можно менять расстояние между строчками Он принимает значения в пикселях.</div>
+            </div>
+        </div>  
+                
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage8-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Следующие селекторы примените к тегу &lt;p&gt;, задайте ему класс и впишите в него текст.</div>
+                <div>Теперь в классе text напишите селектор line-height. Этим селектором можно менять расстояние между строчками Он принимает значения в пикселях.</div>
+            </div>
+        </div>  
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage8-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Следующие селекторы примените к тегу &lt;p&gt;, задайте ему класс и впишите в него текст.</div>
+                <div>Теперь в классе text напишите селектор line-height. Этим селектором можно менять расстояние между строчками Он принимает значения в пикселях.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage8-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Следующие селекторы примените к тегу &lt;p&gt;, задайте ему класс и впишите в него текст.</div>
+                <div>Теперь в классе text напишите селектор line-height. Этим селектором можно менять расстояние между строчками Он принимает значения в пикселях.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage9-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Селектор font-weight. Он отвечает за толщину букв и может принимать значения от 100 до 900.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage9-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Селектор font-weight. Он отвечает за толщину букв и может принимать значения от 100 до 900.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage9-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Селектор font-weight. Он отвечает за толщину букв и может принимать значения от 100 до 900.</div>
+            </div>
+        </div> 
+    
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage9-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Селектор font-weight. Он отвечает за толщину букв и может принимать значения от 100 до 900.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage10-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Селектор font-style. Принимает два значения: normal и italic. italic делает шрифт наклонным</div>
+            </div>
+        </div> 
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage10-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Селектор font-style. Принимает два значения: normal и italic. italic делает шрифт наклонным</div>
+            </div>
+        </div>
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage11-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 11:</div>
+                <div>Селектор text-align. С помощью него можно выровнять текст по центру, по ширине, по правой или по левой стороне.  Для этого используются соответственно значения center, justify, right и left.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides3 fade">
+            <img src="lesson3-stage11-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 11:</div>
+                <div>Селектор text-align. С помощью него можно выровнять текст по центру, по ширине, по правой или по левой стороне.  Для этого используются соответственно значения center, justify, right и left.</div>
+            </div>
+        </div> 
+        <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot3" onclick="currentSlide(1,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(2,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(3,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(4,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(5,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(6,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(7,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(8,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(9,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(10,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(11,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(12,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(13,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(14,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(15,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(16,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(17,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(18,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(19,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(20,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(21,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(22,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(23,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(24,2)"></span>
+        <span class="dot dot3" onclick="currentSlide(25,2)"></span>
+    </div>
+  <!-- 3 -->
+    <div class="name-lesson" id="sec4">
+        Четвёртый урок: Дополнительные селекторы редактирования
+    </div>
+    <p class="lesson-note">Примечание: пробуйте менять значения в селекторах, чтобы видеть, как они работают. Чтобы на сайте произошли изменения, надо после сохранения кода в Brackets обновить страницу сайта в браузере, нажав на стрелку, описывающую круг (она обычно слева)</p>
+  <!-- 4 -->
+    <div class="slideshow-container">
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Пропишите в индексном файле заголовок &lt;h1&gt; с классом text. Перейдите в CSS.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор letter-spacing. Он изменяет расстояние между символами и принимает значения в пикселях. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор letter-spacing. Он изменяет расстояние между символами и принимает значения в пикселях. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage2-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор letter-spacing. Он изменяет расстояние между символами и принимает значения в пикселях. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage2-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор letter-spacing. Он изменяет расстояние между символами и принимает значения в пикселях. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Пропишите в индексном файле абзац &lt;p&gt; с классом block.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор text-indent. Он задаёт отступ для каждого нового абзаца и принимает значения в пикселях. Примените этот селектор для класса block.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор text-indent. Он задаёт отступ для каждого нового абзаца и принимает значения в пикселях. Примените этот селектор для класса block.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Селектор text-decoration. Он отвечает за декорацию текста, а точнее, с помощью него текст можно сделать зачёркнутым, подчёркнутым снизу или сверху. Для этого селектор соответственно принимает значения line-through, underline, overline. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Селектор text-decoration. Он отвечает за декорацию текста, а точнее, с помощью него текст можно сделать зачёркнутым, подчёркнутым снизу или сверху. Для этого селектор соответственно принимает значения line-through, underline, overline. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage6-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Селектор text-transform. С его помощью можно сделать все буквы в тексте маленькими или большими, а также можно сделать так, чтобы все слова начинались с заглавной буквы. Для этого селектор соответственно принимает значения lowercase, uppercase, capitalize. Примените этот селектор для класса block.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage6-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Селектор text-transform. С его помощью можно сделать все буквы в тексте маленькими или большими, а также можно сделать так, чтобы все слова начинались с заглавной буквы. Для этого селектор соответственно принимает значения lowercase, uppercase, capitalize. Примените этот селектор для класса block.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage7-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Селектор border. С его помощью можно сделать границу вокруг текста. Он принимает значения: первое – это толщина границы в пикселях, второе – это цвет, третье – это тип границы. Граница может быть сплошная, пунктирная или точечная. Для этого селектор соответственно принимает значения solid, dashed, dotted. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides4 fade">
+            <img src="lesson4-stage7-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Селектор border. С его помощью можно сделать границу вокруг текста. Он принимает значения: первое – это толщина границы в пикселях, второе – это цвет, третье – это тип границы. Граница может быть сплошная, пунктирная или точечная. Для этого селектор соответственно принимает значения solid, dashed, dotted. Примените этот селектор для класса text.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,3)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,3)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot4" onclick="currentSlide(1,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(2,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(3,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(4,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(5,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(6,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(7,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(8,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(9,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(10,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(11,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(12,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(11,3)"></span>
+        <span class="dot dot4" onclick="currentSlide(12,3)"></span>
+     </div>
+  <!-- 4 -->
+    <div class="name-lesson" id="sec5">
+        Пятый урок: Внутренний отступ – padding
+    </div>
+  <!-- 5 -->
+    <div class="slideshow-container">
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>В индексном файле создайте &lt;div&gt; с классом block. Напишите в &lt;div&gt; что-нибудь. Перейдите в CSS.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор width. Он отвечает за ширину блока и принимает значения в пикселях.</div>
+                <div>Селектор height. Он отвечает за высоту блока и принимает значения в пикселях.</div>
+                <div>Присвойте их классу block.</div>
+                <div>Сделайте рамку с помощью селектора border, чтобы посмотреть, как она будет меняться, при увеличении или уменьшении значений в селекторах width и height.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор width. Он отвечает за ширину блока и принимает значения в пикселях.</div>
+                <div>Селектор height. Он отвечает за высоту блока и принимает значения в пикселях.</div>
+                <div>Присвойте их классу block.</div>
+                <div>Сделайте рамку с помощью селектора border, чтобы посмотреть, как она будет меняться, при увеличении или уменьшении значений в селекторах width и height.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор padding. Он отвечает за внутренний отступ и принимает значения в пикселях. </div>
+                <div>Особенности: Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор padding. Он отвечает за внутренний отступ и принимает значения в пикселях. </div>
+                <div>Особенности: Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage3-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор padding. Он отвечает за внутренний отступ и принимает значения в пикселях. </div>
+                <div>Особенности: Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage3-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор padding. Он отвечает за внутренний отступ и принимает значения в пикселях. </div>
+                <div>Особенности: Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage3-5.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор padding. Он отвечает за внутренний отступ и принимает значения в пикселях. </div>
+                <div>Особенности: Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage3-6.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор padding. Он отвечает за внутренний отступ и принимает значения в пикселях. </div>
+                <div>Особенности: Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Чтобы сделать отступ только сверху нужно прописать padding-top, только справа - padding-right, снизу - padding-bottom, слева - padding-left</div>
+            </div>
+        </div>
+        
+        <div class="mySlides5 fade">
+            <img src="lesson5-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Чтобы сделать отступ только сверху нужно прописать padding-top, только справа - padding-right, снизу - padding-bottom, слева - padding-left</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,4)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,4)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot5" onclick="currentSlide(1,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(2,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(3,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(4,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(5,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(6,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(7,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(8,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(9,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(10,4)"></span>
+        <span class="dot dot5" onclick="currentSlide(11,4)"></span>
+    </div>
+  <!-- 5 -->
+    <div class="name-lesson" id="sec6">
+        Шестой урок: Внешний отступ – margin
+    </div>
+  <!-- 6 -->
+     <div class="slideshow-container">
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>В индексном файле создайте &lt;div&gt; с классом block. Ничего в &lt;div&gt; писать не надо. Перейдите в CSS. Задайте классу блок ширину и высоту в 100 пикселей с помощью селекторов width и height.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор фонового цвета – background-color. Он принимает значение цвета в hex формате или по названию цвета. Присвойте этот селектор классу block, и установите красный цвет. На вашей странице должен появиться синий квадрат.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор фонового цвета – background-color. Он принимает значение цвета в hex формате или по названию цвета. Присвойте этот селектор классу block, и установите красный цвет. На вашей странице должен появиться синий квадрат.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор margin. Он определяет расстояние между блоками и принимает значения в пикселях.  </div>
+                <div>Особенность (аналогично, как и у padding): Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор margin. Он определяет расстояние между блоками и принимает значения в пикселях.  </div>
+                <div>Особенность (аналогично, как и у padding): Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage3-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор margin. Он определяет расстояние между блоками и принимает значения в пикселях.  </div>
+                <div>Особенность (аналогично, как и у padding): Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage3-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор margin. Он определяет расстояние между блоками и принимает значения в пикселях.  </div>
+                <div>Особенность (аналогично, как и у padding): Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage3-5.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор margin. Он определяет расстояние между блоками и принимает значения в пикселях.  </div>
+                <div>Особенность (аналогично, как и у padding): Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage3-6.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор margin. Он определяет расстояние между блоками и принимает значения в пикселях.  </div>
+                <div>Особенность (аналогично, как и у padding): Если вписать в него одно значение, то появится одинаковый отступ со всех сторон. Если вписать в него два значения, то первое будет равняться отступам сверху и снизу, а второе – справа и слева. Также можно вписать в него четыре значения, тогда первое будет равно отступу сверху, второе – справа, третье – снизу, четвёртое – слева.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>С помощью margin можно выровнять объект по центру. Для этого нужно написать первое значение для отступа сверху и снизу, а вместо второго написать auto.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>С помощью margin можно выровнять объект по центру. Для этого нужно написать первое значение для отступа сверху и снизу, а вместо второго написать auto.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Чтобы сделать отступ только сверху нужно прописать margin-top, только справа - margin-right, снизу - margin-bottom, слева - margin-left</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Чтобы сделать отступ только сверху нужно прописать margin-top, только справа - margin-right, снизу - margin-bottom, слева - margin-left</div>
+            </div>
+        </div>
+         
+        <div class="mySlides6 fade">
+            <img src="lesson6-stage6.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>В каждом браузере можно открыть консоль (меню) разработчика, для этого нужно нажать F12, или кликнуть правой кнопкой мыши по объекту и нажать “Исследовать элемент”. В ней вы можете просмотреть свой код и поменять значения, при этом сам код не изменится, вы только посмотрите, что станет с вашим объектом при изменении каких-либо параметров. Также вы можете посмотреть какие есть внутренние и внешние отступы с помощью прямоугольника внизу. Попробуйте поэкспериментировать с консолью разработчика. Чтобы сбросить изменения просто обновите страницу.</div>
+            </div>
+        </div>
+         <a class="prev" onclick="plusSlides(-1,5)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,5)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot6" onclick="currentSlide(1,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(2,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(3,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(4,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(5,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(6,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(7,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(8,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(9,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(10,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(11,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(12,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(13,5)"></span>
+        <span class="dot dot6" onclick="currentSlide(14,5)"></span>
+    </div>
+  <!-- 6 -->
+     <div class="name-lesson" id="sec7">
+        Седьмой урок: Граница – border
+    </div>
+  <!-- 7 -->
+    <div class="slideshow-container">
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage1-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>В индексном файле создайте &lt;div&gt; с классом block. Ничего в &lt;div&gt; писать не надо. Перейдите в CSS. Задайте классу блок ширину и высоту в 100 пикселей с помощью селекторов width и height. Сделайте сплошную границу, шириной в восемь пикселей, красного цвета, с помощью селектора border.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage1-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>В индексном файле создайте &lt;div&gt; с классом block. Ничего в &lt;div&gt; писать не надо. Перейдите в CSS. Задайте классу блок ширину и высоту в 100 пикселей с помощью селекторов width и height. Сделайте сплошную границу, шириной в восемь пикселей, красного цвета, с помощью селектора border.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Чтобы сделать границу только сверху нужно прописать border-top, только справа - border-right, снизу - border-bottom, слева - border-left. Пропишите все стороны и задайте им разные цвета.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Чтобы сделать границу только сверху нужно прописать border-top, только справа - border-right, снизу - border-bottom, слева - border-left. Пропишите все стороны и задайте им разные цвета.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы отключить или не показывать какую-то сторону рамки, нужно вместо значений вписать 0 или none.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы отключить или не показывать какую-то сторону рамки, нужно вместо значений вписать 0 или none.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Если вы хотите редактировать каждый из трёх параметров рамки отдельно, то вам нужно прописать border-width для толщины, border-color для цвета и border-style для типа границы.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Если вы хотите редактировать каждый из трёх параметров рамки отдельно, то вам нужно прописать border-width для толщины, border-color для цвета и border-style для типа границы.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Можно применять предыдущую конструкцию для каждой отдельной стороны. Для этого нужно вписать между border и параметром нужную сторону.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides7 fade">
+            <img src="lesson7-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Можно применять предыдущую конструкцию для каждой отдельной стороны. Для этого нужно вписать между border и параметром нужную сторону.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,6)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,6)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot7" onclick="currentSlide(1,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(2,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(3,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(4,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(5,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(6,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(7,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(8,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(9,6)"></span>
+        <span class="dot dot7" onclick="currentSlide(10,6)"></span>
+    </div>
+  <!-- 7 -->
+    <div class="name-lesson" id="sec8">
+        Восьмой урок: Тег span
+    </div>
+  <!-- 8 -->
+     <div class="slideshow-container">
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Пропишите в индексном файле заголовок &lt;h1&gt; с текстом “Привет мир”.</div>
+            </div>
+        </div> 
+         
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>В этом заголовке оберните слово «мир» в тег &lt;span&gt;. Так как тег &lt;span&gt; строчный, то ничего не изменится.</div>
+            </div>
+        </div> 
+         
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>В этом заголовке оберните слово «мир» в тег &lt;span&gt;. Так как тег &lt;span&gt; строчный, то ничего не изменится.</div>
+            </div>
+        </div> 
+         
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Загадайте тегу &lt;span&gt;  класс block. Перейдите в css. Пропишите в классе block цвет элемента с помощью селектора color. Как вы видите, цвет слова «мир» изменился, а цвет слова «Привет» остался прежним. Таким образом вы можете делать любые изменения над выделенным текстом. Вы можете изменять цвет, размер и толщину шрифта. Также вы можете задавать отступы слева и справа (отступы сверху и снизу есть только у блочных элементов)</div>
+            </div>
+        </div>
+         
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Загадайте тегу &lt;span&gt;  класс block. Перейдите в css. Пропишите в классе block цвет элемента с помощью селектора color. Как вы видите, цвет слова «мир» изменился, а цвет слова «Привет» остался прежним. Таким образом вы можете делать любые изменения над выделенным текстом. Вы можете изменять цвет, размер и толщину шрифта. Также вы можете задавать отступы слева и справа (отступы сверху и снизу есть только у блочных элементов)</div>
+            </div>
+        </div>
+         
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage3-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Загадайте тегу &lt;span&gt;  класс block. Перейдите в css. Пропишите в классе block цвет элемента с помощью селектора color. Как вы видите, цвет слова «мир» изменился, а цвет слова «Привет» остался прежним. Таким образом вы можете делать любые изменения над выделенным текстом. Вы можете изменять цвет, размер и толщину шрифта. Также вы можете задавать отступы слева и справа (отступы сверху и снизу есть только у блочных элементов)</div>
+            </div>
+        </div>
+         
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор display. С его помощью можно выбрать, как будет вести себя блок на странице. Он может быть строчным, блочным и строчно-блочным. Для этого соответственно селектор принимает значения inline, block, inline-block. Таким образом, с помощью тега &lt;span&gt; можно делать любые изменения.</div>
+            </div>
+        </div>
+         
+        <div class="mySlides8 fade">
+            <img src="lesson8-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор display. С его помощью можно выбрать, как будет вести себя блок на странице. Он может быть строчным, блочным и строчно-блочным. Для этого соответственно селектор принимает значения inline, block, inline-block. Таким образом, с помощью тега &lt;span&gt; можно делать любые изменения.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,7)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,7)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot8" onclick="currentSlide(1,7)"></span>
+        <span class="dot dot8" onclick="currentSlide(2,7)"></span>
+        <span class="dot dot8" onclick="currentSlide(3,7)"></span>
+        <span class="dot dot8" onclick="currentSlide(4,7)"></span>
+        <span class="dot dot8" onclick="currentSlide(5,7)"></span>
+        <span class="dot dot8" onclick="currentSlide(6,7)"></span>
+        <span class="dot dot8" onclick="currentSlide(7,7)"></span>
+        <span class="dot dot8" onclick="currentSlide(8,7)"></span>
+    </div>
+  <!-- 8 -->
+    <div class="name-lesson" id="sec9">
+        Девятый урок: Фон на странице (часть 1)
+    </div>
+  <!-- 9 -->
+    <div class="slideshow-container">
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>В индексном файле создайте &lt;div&gt; с классом block. Ничего в &lt;div&gt; писать не надо. Перейдите в CSS. Задайте классу блок ширину и высоту в 100 пикселей с помощью селекторов width и height. </div>
+            </div>
+        </div> 
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>С помощью селектора background-color можно задавать цвет как блокам, так и всей странице. Для этого просто нужно в css написать body и поставить фигурные скобки, а внутри уже задать цвет. Точку перед словом body ставить не нужно. Таким образом можно задавать любые параметры для текста, которые должны быть едиными, например, размер шрифта. Задайте разные цвета для блока и для фона на странице.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>С помощью селектора background-color можно задавать цвет как блокам, так и всей странице. Для этого просто нужно в css написать body и поставить фигурные скобки, а внутри уже задать цвет. Точку перед словом body ставить не нужно. Таким образом можно задавать любые параметры для текста, которые должны быть едиными, например, размер шрифта. Задайте разные цвета для блока и для фона на странице.</div>
+            </div>
+        </div> 
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор background-image. С его помощью можно установить фоновую картинку. Он принимает в значение путь к картинке, который пишется так: url(……). Скачайте какую-нибудь небольшую картинку и пропишите этот селектор в классе block, чтобы установить её фоном. Также измените ширину и высоту блока на 1000 пикселей. Как вы видите, картинка повторяется.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селектор background-image. С его помощью можно установить фоновую картинку. Он принимает в значение путь к картинке, который пишется так: url(……). Скачайте какую-нибудь небольшую картинку и пропишите этот селектор в классе block, чтобы установить её фоном. Также измените ширину и высоту блока на 1000 пикселей. Как вы видите, картинка повторяется.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор background-repeat. С его помощью можно сделать картинку повторяющейся или не повторяющейся. Для этого он соответственно принимает значения repeat и no-repeat. Пропишите этот селектор в классе block и установите значение no-repeat. Как вы видите картинка больше не повторяется, но она также и не растягивается на весь блок.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор background-repeat. С его помощью можно сделать картинку повторяющейся или не повторяющейся. Для этого он соответственно принимает значения repeat и no-repeat. Пропишите этот селектор в классе block и установите значение no-repeat. Как вы видите картинка больше не повторяется, но она также и не растягивается на весь блок.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Селектор background-size. С его помощью можно растягивать изображения внутри блока. Он принимает разные значения, но есть два основных: первое – это 100%, если задать такое значение, то картинка растянется по высоте и ширине на 100%, но оно не обязательно растянется на весь блок, а второе – это cover, с его помощью можно растянуть изображение на весь блок. Пропишите в классе block этот селектор и задайте значение cover.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides9 fade">
+            <img src="lesson9-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Селектор background-size. С его помощью можно растягивать изображения внутри блока. Он принимает разные значения, но есть два основных: первое – это 100%, если задать такое значение, то картинка растянется по высоте и ширине на 100%, но оно не обязательно растянется на весь блок, а второе – это cover, с его помощью можно растянуть изображение на весь блок. Пропишите в классе block этот селектор и задайте значение cover.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,8)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,8)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot9" onclick="currentSlide(1,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(2,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(3,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(4,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(5,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(6,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(7,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(8,8)"></span>
+        <span class="dot dot9" onclick="currentSlide(9,8)"></span>
+    </div>
+  <!-- 9 -->
+    <div class="name-lesson" id="sec10">
+        Десятый урок: Фон на странице (часть 2)
+    </div>
+  <!-- 10 -->
+      <div class="slideshow-container">
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Откройте ваш прошлый проект. Измените высоту и ширину блока на 1300 пикселей. Удалите background-size, пропишите backgroung-color и задайте ему серый цвет.</div>
+            </div>
+        </div>
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор background-position.  Этот селектор определяет положение фона относительно блока: фон может прижаться к верхней границе, к нижней границе, к правой стороне, к левой стороне или остаться в центре. Для этого этот селектор соответственно принимает значения: top, bottom, right, left, center. Пропишите в классе block этот селектор и задайте значение center.</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор background-position.  Этот селектор определяет положение фона относительно блока: фон может прижаться к верхней границе, к нижней границе, к правой стороне, к левой стороне или остаться в центре. Для этого этот селектор соответственно принимает значения: top, bottom, right, left, center. Пропишите в классе block этот селектор и задайте значение center.</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Удалите в классе block всё кроме высоты, ширины и селектора background-image. Вместо ссылки в значении селектора background-image напишите linear-gradient(). С помощью этого значения вы можете установить линейный градиент для вашего блока. В скобках нужно указать цвета через запятую. Первый цвет – это цвет с которого начинается градиент, причём снизу-вверх. Укажите в скобках цвета на ваш вкус.</div>
+            </div>
+        </div>
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Удалите в классе block всё кроме высоты, ширины и селектора background-image. Вместо ссылки в значении селектора background-image напишите linear-gradient(). С помощью этого значения вы можете установить линейный градиент для вашего блока. В скобках нужно указать цвета через запятую. Первый цвет – это цвет с которого начинается градиент, причём снизу-вверх. Укажите в скобках цвета на ваш вкус.</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Чтобы градиент шёл не снизу-вверх, а в другом направлении, нужно перед первым цветом поставить запятую, а перед ней указать направление: to top – снизу-вверх, to bottom – сверху вниз, to right – слева направо, to left – справа налево.  Напишите перед первым цветом какое-нибудь из этих направлений.</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Чтобы градиент шёл не снизу-вверх, а в другом направлении, нужно перед первым цветом поставить запятую, а перед ней указать направление: to top – снизу-вверх, to bottom – сверху вниз, to right – слева направо, to left – справа налево.  Напишите перед первым цветом какое-нибудь из этих направлений.</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Чтобы сделать не такое прямолинейное направление, нужно перед первым цветом написать направление в градусах (deg).</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Чтобы сделать не такое прямолинейное направление, нужно перед первым цветом написать направление в градусах (deg).</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage6-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Также существует круговой градиент. Чтобы его создать нужно просто вместо linear-gradient написать radial-gradient, направление следует убрать, так как оно не понадобится, первый цвет будет центральным.</div>
+            </div>
+        </div> 
+          
+        <div class="mySlides10 fade">
+            <img src="lesson10-stage6-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Также существует круговой градиент. Чтобы его создать нужно просто вместо linear-gradient написать radial-gradient, направление следует убрать, так как оно не понадобится, первый цвет будет центральным.</div>
+            </div>
+        </div> 
+        <a class="prev" onclick="plusSlides(-1,9)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,9)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot10" onclick="currentSlide(1,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(2,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(3,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(4,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(5,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(6,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(7,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(8,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(9,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(10,9)"></span>
+        <span class="dot dot10" onclick="currentSlide(11,9)"></span>
+    </div>
+  <!-- 10 -->
+    <div class="name-lesson" id="sec11">
+        Одиннадцатый урок: Форма ввода (часть 1)
+    </div>
+    <p class="lesson-note">Форма ввода — раздел документа, позволяющий пользователю вводить информацию для последующей обработки системой.</p>
+  <!-- 11 -->
+    <div class="slideshow-container">
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Пропишите в body &lt;form action=’’ method=”post”&gt;&lt;/form&gt;. Action и post – это специальные атрибуты для программистов, они нужны для того, чтобы отправлять данные с форм прямиком к вам или на сервер для обработки. Прописав это, вы создали форму ввода, которая является носителем всех тех окошек для ввода данных.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Внутри формы пропишите окошко для ввода с помощью тега &lt;input&gt; с атрибутом type. Это должно выглядеть так: &lt;input type=””&gt;. Внутри кавычек нужно указать тип формы ввода. Для каждого отдельного случая нужен свой тип, но тип text является универсальным. Пропишите этот тип в кавычках. &lt;/input&gt; писать не нужно. Откройте свой сайт и посмотрите, на экране должна появится форма ввода.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Внутри формы пропишите окошко для ввода с помощью тега &lt;input&gt; с атрибутом type. Это должно выглядеть так: &lt;input type=””&gt;. Внутри кавычек нужно указать тип формы ввода. Для каждого отдельного случая нужен свой тип, но тип text является универсальным. Пропишите этот тип в кавычках. &lt;/input&gt; писать не нужно. Откройте свой сайт и посмотрите, на экране должна появится форма ввода.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы создать подсказку для пользователя, насчёт того, что ему следует написать в форму, нужно прописать для тега &lt;input&gt; атрибут placeholder=””. Подсказка будет исчезать, как только пользователь поставит курсор в форму. Напишите в кавычках какой-нибудь текст.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы создать подсказку для пользователя, насчёт того, что ему следует написать в форму, нужно прописать для тега &lt;input&gt; атрибут placeholder=””. Подсказка будет исчезать, как только пользователь поставит курсор в форму. Напишите в кавычках какой-нибудь текст.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Бывают случаи, когда placeholder не хочется или нельзя использовать, но информацию, о том, для чего существует это окошко нужно указать. Для этого существует специальный тег &lt;label&gt;. Он всегда пишется впереди &lt;input&gt;. Укажите для &lt;input&gt; id – это специальный идентификатор, чем-то схожий с классами CSS. Пишется он так: &lt;input id=’’ type=”text”&gt;. В кавычках укажите название вашего id. Теперь перед &lt;input&gt; напишите тег &lt;label&gt;. Пишется он так: &lt;label for=’’&gt;&lt;/label&gt;. В кавычках нужно указать id вашего &lt;input&gt;, чтобы эти теги работали в связке. То есть в id в &lt;input&gt; и в for в &lt;label&gt; в кавычках должно быть написано одно и тоже. Теперь в теге &lt;label&gt; напишите нужную информацию о вашем окошке. В итоге перед полем ввода появится текст, и при клике на него курсор будет перемещаться в поле ввода. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Бывают случаи, когда placeholder не хочется или нельзя использовать, но информацию, о том, для чего существует это окошко нужно указать. Для этого существует специальный тег &lt;label&gt;. Он всегда пишется впереди &lt;input&gt;. Укажите для &lt;input&gt; id – это специальный идентификатор, чем-то схожий с классами CSS. Пишется он так: &lt;input id=’’ type=”text”&gt;. В кавычках укажите название вашего id. Теперь перед &lt;input&gt; напишите тег &lt;label&gt;. Пишется он так: &lt;label for=’’&gt;&lt;/label&gt;. В кавычках нужно указать id вашего &lt;input&gt;, чтобы эти теги работали в связке. То есть в id в &lt;input&gt; и в for в &lt;label&gt; в кавычках должно быть написано одно и тоже. Теперь в теге &lt;label&gt; напишите нужную информацию о вашем окошке. В итоге перед полем ввода появится текст, и при клике на него курсор будет перемещаться в поле ввода.  </div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Удалите теги &lt;label&gt; и &lt;input&gt;.</div>
+                <div>Если нужно создать поле ввода, в котором нужно указать небольшой текст, то такое окно ввода можно сделать при помощи тега &lt;textarea&gt;. Задайте ему id с каким-нибудь названием. Пропишите тег &lt;label&gt; перед тегом &lt;textarea&gt; с for, в кавычках которого будет написано тоже самое, что и в id. Напишите в тег &lt;label&gt; что-нибудь. В итоге появится поле, в правом нижнем углу которого будет находится маленький уголок, и если за него потянуть, то поле расширится.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Удалите теги &lt;label&gt; и &lt;input&gt;.</div>
+                <div>Если нужно создать поле ввода, в котором нужно указать небольшой текст, то такое окно ввода можно сделать при помощи тега &lt;textarea&gt;. Задайте ему id с каким-нибудь названием. Пропишите тег &lt;label&gt; перед тегом &lt;textarea&gt; с for, в кавычках которого будет написано тоже самое, что и в id. Напишите в тег &lt;label&gt; что-нибудь. В итоге появится поле, в правом нижнем углу которого будет находится маленький уголок, и если за него потянуть, то поле расширится.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage6-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Чтобы сделать окошко большое, но при этом ограниченных размеров (убрать маленький уголок из правого нижнего края поля), задайте класс тегу &lt;textarea&gt;, и, перейдя в CSS, задайте высоту и ширину вашему полю. Чтобы избавиться от уголка пропишите селектор resize со значением none.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides11 fade">
+            <img src="lesson11-stage6-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Чтобы сделать окошко большое, но при этом ограниченных размеров (убрать маленький уголок из правого нижнего края поля), задайте класс тегу &lt;textarea&gt;, и, перейдя в CSS, задайте высоту и ширину вашему полю. Чтобы избавиться от уголка пропишите селектор resize со значением none.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,10)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,10)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot11" onclick="currentSlide(1,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(2,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(3,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(4,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(5,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(6,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(7,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(8,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(9,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(10,10)"></span>
+        <span class="dot dot11" onclick="currentSlide(11,10)"></span>
+    </div>
+  <!-- 11 -->
+    <div class="name-lesson" id="sec12">
+        Двенадцатый урок: Форма ввода (часть 2)
+    </div>
+  <!-- 12 -->
+    <div class="slideshow-container">
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Откройте ваш предыдущий проект, удалите всё, что написано в CSS и что находится в теге &lt;form&gt;</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Тег &lt;select&gt;. Это форма ввода может пригодится, когда пользователю нужно выбрать один из вариантов, предложенных на сайте. Укажите атрибут name для этого тега (этот атрибут будет выполнять ту же функцию, что и id). Напишите что-нибудь в кавычках.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы сделать варианты для выбора, надо внутри тега &lt;select&gt; написать теги &lt;option&gt;, в которых надо указать варианты для выбора.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Перед тегом &lt;select&gt; пропишите тег &lt;label&gt;, в for напишите тоже самое, что вы написали в кавычках в name. В теге &lt;label&gt; напишите что-нибудь. Откройте ваш сайт, на нём должна появится форма с выбором ответа.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Перед тегом &lt;select&gt; пропишите тег &lt;label&gt;, в for напишите тоже самое, что вы написали в кавычках в name. В теге &lt;label&gt; напишите что-нибудь. Откройте ваш сайт, на нём должна появится форма с выбором ответа.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Удалите всё, что написано в теге &lt;form&gt;. Чтобы создать форму, которую чаще всего используют при выборе пола нужно в теге &lt;form&gt; прописать несколько тегов &lt;input&gt; с типом radio. Сделайте для каждого из них &lt;label&gt;. Также для каждого &lt;input&gt; надо указать атрибут name. Если вы укажете name одинаковым для обоих &lt;input&gt;, то выбрать можно будет только один вариант ответа. Если вы не напишете одинаковый name, тогда можно будет выбрать сразу несколько ответов. Откройте ваш сайт, на нём должна появится форма, пустых точек с названиями.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Удалите всё, что написано в теге &lt;form&gt;. Чтобы создать форму, которую чаще всего используют при выборе пола нужно в теге &lt;form&gt; прописать несколько тегов &lt;input&gt; с типом radio. Сделайте для каждого из них &lt;label&gt;. Также для каждого &lt;input&gt; надо указать атрибут name. Если вы укажете name одинаковым для обоих &lt;input&gt;, то выбрать можно будет только один вариант ответа. Если вы не напишете одинаковый name, тогда можно будет выбрать сразу несколько ответов. Откройте ваш сайт, на нём должна появится форма, пустых точек с названиями.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage6-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Удалите всё, что написано в теге &lt;form&gt;. Чтобы создать форму типа checkbox (её вы чаще всего встречаете, когда надо поставить галочку, что вы согласны на обработку персональных данных), напишите тег &lt;input&gt; с типом checkbox. Сделайте для &lt;input&gt; какой-нибудь &lt;label&gt;. Откройте ваш сайт, на нём должен появиться квадратик, в который можно поставить галочку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage6-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Удалите всё, что написано в теге &lt;form&gt;. Чтобы создать форму типа checkbox (её вы чаще всего встречаете, когда надо поставить галочку, что вы согласны на обработку персональных данных), напишите тег &lt;input&gt; с типом checkbox. Сделайте для &lt;input&gt; какой-нибудь &lt;label&gt;. Откройте ваш сайт, на нём должен появиться квадратик, в который можно поставить галочку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage7-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Удалите всё, что написано в теге &lt;form&gt;. Чтобы создать кнопку отправления данных нужно использовать специальный тег &lt;button&gt; с атрибутом type равным submit. Напишите что-нибудь в самом теге. Откройте ваш сайт, на нём должна появится кнопка отправления данных.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides12 fade">
+            <img src="lesson12-stage7-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Удалите всё, что написано в теге &lt;form&gt;. Чтобы создать кнопку отправления данных нужно использовать специальный тег &lt;button&gt; с атрибутом type равным submit. Напишите что-нибудь в самом теге. Откройте ваш сайт, на нём должна появится кнопка отправления данных.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,11)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,11)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot12" onclick="currentSlide(1,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(2,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(3,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(4,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(5,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(6,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(7,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(8,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(9,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(10,11)"></span>
+        <span class="dot dot12" onclick="currentSlide(11,11)"></span>
+    </div>
+  <!-- 12 -->
+    <div class="name-lesson" id="sec13">
+        Тринадцатый урок: Псевдоклассы (часть 1)
+    </div>
+    <p class="lesson-note">Псевдоклассы позволяют менять стиль элемента, в зависимости от действий пользователя, таких как наведение курсора или клик.</p>
+  <!-- 13 -->
+    <div class="slideshow-container">
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>В индексном файле создайте кнопку. Для этого напишите тег &lt;a&gt; с классом button и каким-нибудь текстом.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Перейдите в CSS и в классе button задайте вашей кнопке фоновый цвет с помощью селектора background-color, цвет текста с помощью color, уберите подчёркивание с помощью text-decoration (когда вы создаёте ссылку, она отображается синей и подчёркнутой) и значения none и добавьте внутренний отступ со всех сторон с помощью padding. Откройте ваш сайт, и вы увидите кнопку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Перейдите в CSS и в классе button задайте вашей кнопке фоновый цвет с помощью селектора background-color, цвет текста с помощью color, уберите подчёркивание с помощью text-decoration (когда вы создаёте ссылку, она отображается синей и подчёркнутой) и значения none и добавьте внутренний отступ со всех сторон с помощью padding. Откройте ваш сайт, и вы увидите кнопку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Псевдокласс hover. Он будет срабатывать при наведении курсора на объект.  Чтобы прописать псевдокласс, нужно ниже обычного класса создать точно такой же, только после его названия должно идти двоеточие и название псевдокласса, в данном случае hover. Внутри псевдокласса можно задать новые параметры для объекта. Создайте псевдокласс для вашей кнопки. Откройте ваш сайт и наведите курсор на кнопку, она должна измениться.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Псевдокласс hover. Он будет срабатывать при наведении курсора на объект.  Чтобы прописать псевдокласс, нужно ниже обычного класса создать точно такой же, только после его названия должно идти двоеточие и название псевдокласса, в данном случае hover. Внутри псевдокласса можно задать новые параметры для объекта. Создайте псевдокласс для вашей кнопки. Откройте ваш сайт и наведите курсор на кнопку, она должна измениться.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Псевдокласс active. Этот псевдокласс будет срабатывать только в момент клика на кнопку. Добавьте этот псевдокласс в CSS коде.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Псевдокласс active. Этот псевдокласс будет срабатывать только в момент клика на кнопку. Добавьте этот псевдокласс в CSS коде.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage5.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Удалите вашу кнопку. Создайте в индексном файле форму ввода типа: &lt;input type=”text” class=’input’ placeholder=”Введите ваш email”&gt;. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage6-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Псевдокласс focus. Он срабатывает при фокусе на элементе, то есть только после того, как вы поставите курсор в форму ввода. Перейдите в CSS и напишите псевдокласс для вашей формы ввода. В псевдоклассе измените какой-либо параметр, например, фоновый цвет.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides13 fade">
+            <img src="lesson13-stage6-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Псевдокласс focus. Он срабатывает при фокусе на элементе, то есть только после того, как вы поставите курсор в форму ввода. Перейдите в CSS и напишите псевдокласс для вашей формы ввода. В псевдоклассе измените какой-либо параметр, например, фоновый цвет.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,12)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,12)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot13" onclick="currentSlide(1,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(2,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(3,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(4,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(5,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(6,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(7,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(8,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(9,12)"></span>
+        <span class="dot dot13" onclick="currentSlide(10,12)"></span>
+    </div>
+  <!-- 13 -->
+    <div class="name-lesson" id="sec14">
+        Четырнадцатый урок: Позиционирование 
+    </div>
+  <!-- 14 -->
+    <div class="slideshow-container">
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Создайте &lt;div&gt; с классом block, перейдите в CSS, задайте вашему блоку ширину и высоту по сто пикселей, фон блока сделайте красным.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор position. С его помощью можно задать тип поведения объекта по отношению к другим. Задайте ему значение absolute, тогда элемент будет игнорировать остальные объекты, и не будет от них никак зависеть.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селекторы top, left, right, bottom. Они принимают значения в пикселях. С их помощью можно соответственно сделать отступ для элемента относительно верха, левой стороны, правой стороны, низа. Задайте для вашего блока отступы по 100 пикселей относительно верха и левой стороны с помощью селекторов top и left. Откройте ваш сайт, блок должен сместиться.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Селекторы top, left, right, bottom. Они принимают значения в пикселях. С их помощью можно соответственно сделать отступ для элемента относительно верха, левой стороны, правой стороны, низа. Задайте для вашего блока отступы по 100 пикселей относительно верха и левой стороны с помощью селекторов top и left. Откройте ваш сайт, блок должен сместиться.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Создайте новый &lt;div&gt; внутри вашего &lt;div&gt;, и задайте ему класс block2</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Задайте второму блоку ширину и высоту в 30 пикселей, фоновый цвет сделайте синим, позицию задайте absolute, сделайте отступы сверху и снизу по 50 пикселей;</div>
+                <div>Измените у первого блока значение позиции на relative. Теперь ваш первый блок является как бы родителем второго, и второй теперь сможет смещаться только относительно первого.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Задайте второму блоку ширину и высоту в 30 пикселей, фоновый цвет сделайте синим, позицию задайте absolute, сделайте отступы сверху и снизу по 50 пикселей;</div>
+                <div>Измените у первого блока значение позиции на relative. Теперь ваш первый блок является как бы родителем второго, и второй теперь сможет смещаться только относительно первого.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage6.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Разъедините ваши блоки и напишите их отдельно друг от друга.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage7.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Поменяйте у первого блока значение позиции на absolute. Измените отступы сверху и снизу для второго блока на 150 пикселей.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage8-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Селектор z-index. Он отвечает за то, какой элемент будет находиться выше. Чем больше будет значение у z-index, тем выше этот элемент будет располагаться поверх других. Пропишите этот селектор для обоих блоков. Первому задайте значение 2, а второму 1. Откройте ваш файл. Как вы видите, второй блок пропал, но на самом деле он находится под первым.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage8-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Селектор z-index. Он отвечает за то, какой элемент будет находиться выше. Чем больше будет значение у z-index, тем выше этот элемент будет располагаться поверх других. Пропишите этот селектор для обоих блоков. Первому задайте значение 2, а второму 1. Откройте ваш файл. Как вы видите, второй блок пропал, но на самом деле он находится под первым.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage9-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Поменяйте значения z-index для ваших блоков. Задайте первому значение 1, а второму 2. Откройте ваш файл, второй блок будет располагаться поверх первого.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage9-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Поменяйте значения z-index для ваших блоков. Задайте первому значение 1, а второму 2. Откройте ваш файл, второй блок будет располагаться поверх первого.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage10-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Значение позиции fixed. Оно означает, что при скроле вашей страницы, элемент не будет никуда смещаться. Задайте позицию fixed вашему первому блоку. Создайте ещё один &lt;div&gt; с классом fixed и задайте ему высоту в 2000 пикселей, чтобы вы могли скролить. (скролить – пролистывать (прокручивать) страницу вверх, вниз, вправо, влево). Откройте ваш сайт, при пролистывании первый блок не смещается.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides14 fade">
+            <img src="lesson14-stage10-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Значение позиции fixed. Оно означает, что при скроле вашей страницы, элемент не будет никуда смещаться. Задайте позицию fixed вашему первому блоку. Создайте ещё один &lt;div&gt; с классом fixed и задайте ему высоту в 2000 пикселей, чтобы вы могли скролить. (скролить – пролистывать (прокручивать) страницу вверх, вниз, вправо, влево). Откройте ваш сайт, при пролистывании первый блок не смещается.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,13)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,13)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot14" onclick="currentSlide(1,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(2,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(3,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(4,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(5,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(6,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(7,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(8,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(9,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(10,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(11,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(12,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(13,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(14,13)"></span>
+        <span class="dot dot14" onclick="currentSlide(15,13)"></span>
+    </div>
+  <!-- 14 -->
+    <div class="name-lesson" id="sec15">
+        Пятнадцатый урок: border-radius, box-shadow, box-sizing, opacity и transition
+    </div>
+    <p class="lesson-note">Это всё свойства CSS3</p>
+  <!-- 15 -->
+    <div class="slideshow-container">
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage1-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Создайте &lt;div&gt; с классом block. Перейдите в CSS и задайте ему ширину в 100 и высоту в 200 пикселей. Фоновый цвет сделайте, например, красным. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage1-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Создайте &lt;div&gt; с классом block. Перейдите в CSS и задайте ему ширину в 100 и высоту в 200 пикселей. Фоновый цвет сделайте, например, красным. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Свойство border-radius. Оно определяет размер закругления краёв блока и принимает значения в пикселях.</div>
+                <div>Особенность: Если вписать в него одно значение, то закругление у всех краёв будет одинаковым. Если вписать в него четыре значения, то первое будет равно закруглению левого верхнего угла, второе - правого верхнего, третье – правого нижнего, четвёртое – левого нижнего.</div>
+                <div>Примените это свойство к вашему блоку и попробуйте подставить разные значения.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Свойство border-radius. Оно определяет размер закругления краёв блока и принимает значения в пикселях.</div>
+                <div>Особенность: Если вписать в него одно значение, то закругление у всех краёв будет одинаковым. Если вписать в него четыре значения, то первое будет равно закруглению левого верхнего угла, второе - правого верхнего, третье – правого нижнего, четвёртое – левого нижнего.</div>
+                <div>Примените это свойство к вашему блоку и попробуйте подставить разные значения.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage2-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Свойство border-radius. Оно определяет размер закругления краёв блока и принимает значения в пикселях.</div>
+                <div>Особенность: Если вписать в него одно значение, то закругление у всех краёв будет одинаковым. Если вписать в него четыре значения, то первое будет равно закруглению левого верхнего угла, второе - правого верхнего, третье – правого нижнего, четвёртое – левого нижнего.</div>
+                <div>Примените это свойство к вашему блоку и попробуйте подставить разные значения.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage2-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Свойство border-radius. Оно определяет размер закругления краёв блока и принимает значения в пикселях.</div>
+                <div>Особенность: Если вписать в него одно значение, то закругление у всех краёв будет одинаковым. Если вписать в него четыре значения, то первое будет равно закруглению левого верхнего угла, второе - правого верхнего, третье – правого нижнего, четвёртое – левого нижнего.</div>
+                <div>Примените это свойство к вашему блоку и попробуйте подставить разные значения.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы сделать закругление только для одного угла нужно между словами border и radius написать название угла, например, для левого верхнего это будет top-left</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Чтобы сделать закругление только для одного угла нужно между словами border и radius написать название угла, например, для левого верхнего это будет top-left</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Свойство box-shadow. С его помощью можно сделать тень для блока. Чтобы сделать тень для текста используют селектор text-shadow. Они принимают одни и те же параметры: первое – сдвиг по оси X в пикселях, второе - сдвиг по оси Y в пикселях, третье – степень размытия в пикселях, четвёртое – цвет тени. Примените свойство box-shadow к вашему блоку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Свойство box-shadow. С его помощью можно сделать тень для блока. Чтобы сделать тень для текста используют селектор text-shadow. Они принимают одни и те же параметры: первое – сдвиг по оси X в пикселях, второе - сдвиг по оси Y в пикселях, третье – степень размытия в пикселях, четвёртое – цвет тени. Примените свойство box-shadow к вашему блоку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Создайте ниже вашего блока заголовок &lt;h1&gt; с классом title. Примените свойство text-shadow к вашему заголовку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>Создайте ниже вашего блока заголовок &lt;h1&gt; с классом title. Примените свойство text-shadow к вашему заголовку.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage6-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Задайте вашему блоку padding в 30 пикселей. Откройте ваш сайт, и вы увидите, что размеры блока изменились. Чтобы сделать блок именно тех размеров, которые вы указали вначале, нужно воспользоваться свойством box-sizing со значением border-box. Откройте ваш сайт, и вы увидите, блок стал тех же размеров, что и изначально.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage6-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Задайте вашему блоку padding в 30 пикселей. Откройте ваш сайт, и вы увидите, что размеры блока изменились. Чтобы сделать блок именно тех размеров, которые вы указали вначале, нужно воспользоваться свойством box-sizing со значением border-box. Откройте ваш сайт, и вы увидите, блок стал тех же размеров, что и изначально.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage6-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Задайте вашему блоку padding в 30 пикселей. Откройте ваш сайт, и вы увидите, что размеры блока изменились. Чтобы сделать блок именно тех размеров, которые вы указали вначале, нужно воспользоваться свойством box-sizing со значением border-box. Откройте ваш сайт, и вы увидите, блок стал тех же размеров, что и изначально.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage6-4.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Задайте вашему блоку padding в 30 пикселей. Откройте ваш сайт, и вы увидите, что размеры блока изменились. Чтобы сделать блок именно тех размеров, которые вы указали вначале, нужно воспользоваться свойством box-sizing со значением border-box. Откройте ваш сайт, и вы увидите, блок стал тех же размеров, что и изначально.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage7-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Свойство opacity. С его помощью можно регулировать прозрачность объекта. Оно принимает значения от нуля до единицы. Примените это свойство к вашему блоку и поэкспериментируйте со значениями. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage7-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Свойство opacity. С его помощью можно регулировать прозрачность объекта. Оно принимает значения от нуля до единицы. Примените это свойство к вашему блоку и поэкспериментируйте со значениями. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage8-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Создайте псевдокласс hover для вашего блока. Пропишите в нём новый цвет для вашего блока. Откройте вашу страницу и наведите курсор на блок, он меняет цвет резко. Чтобы отрегулировать плавность смены цвета нужно использовать свойство transition. В нём нужно указать, к какому свойству применяют плавный переход, например, к background-color, после нужно указать длительность (можно писать десятичные дроби) в секундах (s), и после свойство, которое определяет тип перехода, обычно указывают linear. Откройте вашу страницу и наведите курсор на блок, он меняет цвет плавно.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides15 fade">
+            <img src="lesson15-stage8-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Создайте псевдокласс hover для вашего блока. Пропишите в нём новый цвет для вашего блока. Откройте вашу страницу и наведите курсор на блок, он меняет цвет резко. Чтобы отрегулировать плавность смены цвета нужно использовать свойство transition. В нём нужно указать, к какому свойству применяют плавный переход, например, к background-color, после нужно указать длительность (можно писать десятичные дроби) в секундах (s), и после свойство, которое определяет тип перехода, обычно указывают linear. Откройте вашу страницу и наведите курсор на блок, он меняет цвет плавно.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,14)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,14)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot15" onclick="currentSlide(1,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(2,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(3,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(4,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(5,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(6,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(7,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(8,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(9,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(10,14)"></span><span class="dot dot15" onclick="currentSlide(11,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(12,14)"></span><span class="dot dot15" onclick="currentSlide(13,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(14,14)"></span><span class="dot dot15" onclick="currentSlide(15,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(16,14)"></span><span class="dot dot15" onclick="currentSlide(17,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(18,14)"></span><span class="dot dot15" onclick="currentSlide(19,14)"></span>
+        <span class="dot dot15" onclick="currentSlide(20,14)"></span>
+    </div>
+  <!-- 15 -->
+    <div class="name-lesson" id="sec16">
+        Шестнадцатый урок: Flex box
+    </div>
+  <!-- 16 -->
+    <div class="slideshow-container">
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage1-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Создайте &lt;div&gt; с классом block. Внутри этого &lt;div&gt; создайте ещё три &lt;div&gt; с классами red, blue и green. Перейдите в CSS и напишите там ваши три класса: red, blue и green. Задайте каждому классу фоновые цвета с соответствующими названиями и сделайте ваши блоки разных размеров. Добавьте каждому блоку margin по 20 пикселей. Откройте вашу страницу, и вы увидите, что квадраты располагаются друг под другом.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage1-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Создайте &lt;div&gt; с классом block. Внутри этого &lt;div&gt; создайте ещё три &lt;div&gt; с классами red, blue и green. Перейдите в CSS и напишите там ваши три класса: red, blue и green. Задайте каждому классу фоновые цвета с соответствующими названиями и сделайте ваши блоки разных размеров. Добавьте каждому блоку margin по 20 пикселей. Откройте вашу страницу, и вы увидите, что квадраты располагаются друг под другом.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>Селектор display. Он пишется к главному блоку, и с его помощью можно регулировать расположение содержимого этого блока относительно друг друга. Чтобы ваши квадраты оказались расположенными в одну строку, задайте для этого селектора значение flex.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Откройте ваш сайт, и вы увидите, что ваши квадраты образуют некую лесенку из-за того, что они разного размера. Чтобы это исправить нужно в классе block прописать селектор align-items и задать ему значение center. Откройте ваш сайт, и вы увидите, что ваши квадраты выровнялись по их центру.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Откройте ваш сайт, и вы увидите, что ваши квадраты образуют некую лесенку из-за того, что они разного размера. Чтобы это исправить нужно в классе block прописать селектор align-items и задать ему значение center. Откройте ваш сайт, и вы увидите, что ваши квадраты выровнялись по их центру.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage3-3.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>Откройте ваш сайт, и вы увидите, что ваши квадраты образуют некую лесенку из-за того, что они разного размера. Чтобы это исправить нужно в классе block прописать селектор align-items и задать ему значение center. Откройте ваш сайт, и вы увидите, что ваши квадраты выровнялись по их центру.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор justify-content. С его помощью можно регулировать расстояние между содержимым блока, а также расположение содержимого. Этот селектор может принимать одно из трёх значений: первое – space-between, чтобы отодвинуть все элементы на максимально возможное и равное расстояние друг от друга; второе – space-around, чтобы сделать отступы не только между элементами, но и отступы от правого и левого краёв страницы; третье – center, чтобы расположить элементы по центру. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides16 fade">
+            <img src="lesson16-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>Селектор justify-content. С его помощью можно регулировать расстояние между содержимым блока, а также расположение содержимого. Этот селектор может принимать одно из трёх значений: первое – space-between, чтобы отодвинуть все элементы на максимально возможное и равное расстояние друг от друга; второе – space-around, чтобы сделать отступы не только между элементами, но и отступы от правого и левого краёв страницы; третье – center, чтобы расположить элементы по центру. </div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,15)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,15)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot16" onclick="currentSlide(1,15)"></span>
+        <span class="dot dot16" onclick="currentSlide(2,15)"></span>
+        <span class="dot dot16" onclick="currentSlide(3,15)"></span>
+        <span class="dot dot16" onclick="currentSlide(4,15)"></span>
+        <span class="dot dot16" onclick="currentSlide(5,15)"></span>
+        <span class="dot dot16" onclick="currentSlide(6,15)"></span>
+        <span class="dot dot16" onclick="currentSlide(7,15)"></span>
+        <span class="dot dot16" onclick="currentSlide(8,15)"></span>
+    </div>
+  <!-- 16 -->
+    <div class="name-lesson" style="margin-right: 20px" id="sec17">
+        Семнадцатый урок: Псевдоклассы (часть 2)
+    </div>
+  <!-- 17 -->
+    <div class="slideshow-container">
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 1:</div>
+                <div>Создайте 6 &lt;div&gt; с классом box, между тегами впишите их порядковый номер по-русски.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage2-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только для первого элемента, может помочь псевдокласс first-child. Пропишите этот псевдокласс в CSS и задайте в нём цвет текста – красный. Откройте ваш сайт, вы увидите, что цвет изменил только первый элемент.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage2-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 2:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только для первого элемента, может помочь псевдокласс first-child. Пропишите этот псевдокласс в CSS и задайте в нём цвет текста – красный. Откройте ваш сайт, вы увидите, что цвет изменил только первый элемент.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage3-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только для последнего элемента, может помочь псевдокласс last-child. Измените ваш псевдокласс с first-child на last-child. Откройте ваш сайт, вы увидите, что цвет изменил только последний элемент.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage3-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 3:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только для последнего элемента, может помочь псевдокласс last-child. Измените ваш псевдокласс с first-child на last-child. Откройте ваш сайт, вы увидите, что цвет изменил только последний элемент.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage4-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только к одному элементу, при этом этот элемент не является первым или последним, может помочь псевдокласс nth-child (). В скобках нужно указать порядковый номер элемента. Измените ваш псевдокласс с last-child на nth-child () и укажите значение в скобках - 3. Откройте ваш сайт, вы увидите, что цвет изменил только третий элемент.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage4-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 4:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только к одному элементу, при этом этот элемент не является первым или последним, может помочь псевдокласс nth-child (). В скобках нужно указать порядковый номер элемента. Измените ваш псевдокласс с last-child на nth-child () и укажите значение в скобках - 3. Откройте ваш сайт, вы увидите, что цвет изменил только третий элемент.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage5-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только к чётным элементам, может помочь псевдокласс nth-child (). В скобках нужно указать even. Для нечётных нужно указать значение – odd. Измените значение в скобках на odd. Откройте ваш сайт, вы увидите, что цвет изменили только нечётные элементы.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage5-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 5:</div>
+                <div>В случае, когда много элементов с одним классом и надо применить изменения только к чётным элементам, может помочь псевдокласс nth-child (). В скобках нужно указать even. Для нечётных нужно указать значение – odd. Измените значение в скобках на odd. Откройте ваш сайт, вы увидите, что цвет изменили только нечётные элементы.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage6.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 6:</div>
+                <div>Очистите ваши CSS и HTML документы. Создайте &lt;div&gt; с классом block, в нём сделайте абзац &lt;p&gt; с текстом и заголовок &lt;h1&gt; с тем же текстом и скопируйте их два раза.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage7-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Представьте ситуацию, что в вашем блоке нужно поменять цвет только абзацев &lt;p&gt;, а заголовки &lt;h1&gt; не трогать. Для этого напишите класс block в CSS и после слова block поставьте пробел и напишите название тега, то есть – p. Измените цвет абзацев на зелёный. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage7-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 7:</div>
+                <div>Представьте ситуацию, что в вашем блоке нужно поменять цвет только абзацев &lt;p&gt;, а заголовки &lt;h1&gt; не трогать. Для этого напишите класс block в CSS и после слова block поставьте пробел и напишите название тега, то есть – p. Измените цвет абзацев на зелёный. </div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage8-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Чтобы изменить цвет только первого абзаца, примените псевдокласс first-of-type.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage8-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 8:</div>
+                <div>Чтобы изменить цвет только первого абзаца, примените псевдокласс first-of-type.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage9-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Чтобы изменить цвет только последнего абзаца, примените псевдокласс last-of-type.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage9-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 9:</div>
+                <div>Чтобы изменить цвет только последнего абзаца, примените псевдокласс last-of-type.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage10-1.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Чтобы изменить цвет только чётных, нечётных или определённых по номеру абзацев, примените псевдокласс nth-of-type () с соответствующими значениями: even – для чётных, odd – для нечётных, цифра – для определённого элемента.</div>
+            </div>
+        </div>
+        
+        <div class="mySlides17 fade">
+            <img src="lesson17-stage10-2.png" style="width:100%">
+            <div class="text-slaider">
+                <div class="stage">Шаг 10:</div>
+                <div>Чтобы изменить цвет только чётных, нечётных или определённых по номеру абзацев, примените псевдокласс nth-of-type () с соответствующими значениями: even – для чётных, odd – для нечётных, цифра – для определённого элемента.</div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1,16)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,16)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dot-container" style="text-align:center">
+        <span class="dot dot17" onclick="currentSlide(1,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(2,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(3,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(4,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(5,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(6,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(7,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(8,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(9,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(10,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(11,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(12,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(13,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(14,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(15,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(16,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(17,16)"></span>
+        <span class="dot dot17" onclick="currentSlide(18,16)"></span>
+    </div>
+  <!-- 17 -->
+    <div class='ender'>
+        <div class='name'>
+            Electronic Information Technology
+        </div>
+        <div class='avtor'>
+            &copy;
+            2024 автор 
+        </div>
+        <div class='com'>
+            elinte.com
+        </div>
+    </div>
+    <script src='app.js'></script>
+    <script src='add.js'></script>
+    <script src='asl.js'></script>
+    <script src='video.js'></script>
+    <script>
+        $(document).ready(function(){
+            $('.scroll').on('click', function(e){
+                e.preventDefault();
+                var target = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top
+                }, 500);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.back-to-top').on('click', function(e){
+                e.preventDefault();
+                var target = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top
+                }, 500);
+            });
+        });
+    </script>
+</body>
+</html>

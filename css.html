@@ -1,0 +1,2776 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="style.css">
+    <link rel="stylesheet" href="default1.min.css">
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>ELINTE</title>
+    <link rel="icon" type="image/png" href="logo4.png">  
+</head>
+<body>
+    <div class='header-dop'>
+        <a href="index.html">
+            <div class='logo'>
+                <img src='logo10.png' alt=''>
+            </div>
+        </a>
+        <div class='stripe'>
+            <img src='stripe2.png' alt=''>
+        </div>
+        <div class='header_text'>
+            <h3>Electronic</h3>
+            <h3>Information</h3>
+            <h3>Technology</h3>
+        </div>
+        <div class='main-menu-holder'>
+            <button id='burger' class='menu-holder'>
+                <div id='menu' class='menu'>
+                    <img src='menu.png' alt=''>
+                </div>
+                <div id='menu2' class='menu2'>
+                    <img src='menu2.png' alt=''>
+                </div>
+            </button>
+            <div id='pole' class='pole disp'>
+                <div id='cross' class='cross-holder'>
+                     <div class='cross'>
+                        <img src='cross.png' alt=''>
+                    </div>
+                    <div class='cross2'>
+                        <img src='cross2.png' alt=''>
+                    </div>
+                </div>
+                <div class='menu-text-header'>ELINTE</div>
+                <div class='menu-line'>
+                    <img src='menu-line.png' alt=''>
+                </div>
+                <div class='menu-text-holder'>
+                    <div>
+                        <a class='menu-text' href='index.html'>- Home</a>
+                    </div>
+                    <div>
+                        <a class='menu-text' href='base.html'>- Основы создания сайта</a>
+                    </div>
+                    <div>
+                        <a class='menu-text' href='html.html'>- Словарь html</a>
+                    </div>
+                    <div>
+                        <a class='menu-text' href='example.html'>- Пример создания сайта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='dop-header' id='top'>
+        <a class='dop-header-text' href="index.html">
+            <div>
+                Home
+            </div>
+        </a>
+        <div class='vertical'>
+            <img src='vertical.png' alt="">
+        </div>
+        <a class='dop-header-text' href="base.html">
+            <div>
+                Основы создания сайта
+            </div>
+        </a>
+        <div class='vertical'>
+            <img src='vertical.png' alt="">
+        </div>
+        <a class='dop-header-text' href="html.html">
+            <div>
+                Словарь html
+            </div>
+        </a>
+        <div class='vertical'>
+            <img src='vertical.png' alt="">
+        </div>
+        <a class='dop-header-text' href="example.html">
+            <div>
+                Пример создания сайта
+            </div>
+        </a>
+    </div>
+    <a href="#top" class="back-to-top">▲</a>
+    <div class='css_back_block' style='height:370px;'>
+        <img class='css_back' src='css_back5.jpeg' alt="">
+        <div class='css_back_text' style='top:90px;justify-content: space-between; padding-left:15px;'>Словарь CSS</div>
+        <div  class='navigator_css' style='border-top:1px #422e52 solid; width: 100%'>
+            <a href="#sec1" class='scroll_css'>
+                <span class='navigator_step1' style='padding-left:60px; padding-right:60px;'>Текст</span>
+            </a>
+            <a href="#sec2" class='scroll_css'>
+                <span class='navigator_step1'>Декорации</span>
+            </a>
+            <a href="#sec3" class='scroll_css'>
+                <span class='navigator_step1' style='padding-right:95px; padding-left:105px;'>Теги</span>
+            </a>
+            <a href="#sec4" class='scroll_css'>
+                <span class='navigator_step1' style='padding-right:70px; padding-left:100px;'>Размеры</span>
+            </a>
+            <a href="#sec5" class='scroll_css'>
+                <span class='navigator_step1' style='padding-right:60px; padding-left:60px;'>Размещение</span>
+            </a>
+        </div>
+        <div class='navigator_css' style='top:279px; border-bottom:1px #422e52 solid;'>
+            <a href="#sec6" class='scroll_css'>
+                <span class='navigator_step2'style='padding-left:60px;'>Выбор</span>
+            </a>
+            <a href="#sec7" class='scroll_css'>
+                <span class='navigator_step2'>Анимация</span>
+            </a>
+            <a href="#sec8" class='scroll_css'>
+                <span class='navigator_step2'>Трансформация</span>
+            </a>
+            <a href="#sec9" class='scroll_css'>
+                <span class='navigator_step2' style='padding-right:60px;'>Вставки</span>
+            </a>
+            <a href="#sec10" class='scroll_css'>
+                <span class='navigator_step2'>Селекторы</span>
+            </a>
+        </div>
+    </div>
+    <div class='symbol1' id='sec1' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1'  style='margin-left: 47%;'>Текст</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Самое нужное</p>
+    </div>
+    <button class="collapsible01">font-size<span class='collapsible_name2'>Размер текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font-size устанавливает размер шрифта текста. Значением свойства служат любые единицы для размеров (как правило, это px, em или rem) либо специальные ключевые слова (используются крайне редко).</p>
+        <pre><code>
+   селектор {
+      font-size: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">font-style<span class='collapsible_name2'>Курсивный текст</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font-style устанавливает курсив либо наклонное написание текста</p>
+        <pre><code>
+   селектор {
+      font-style: italic | oblique | normal;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">font-weight<span class='collapsible_name2'>Жирный текст</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font-weight устанавливает либо отменяет жирный текст.</p>
+        <pre><code>
+   селектор {
+      font-weight: bold | normal;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">line-height<span class='collapsible_name2'>Межстрочный интервал</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство line-height устанавливает интервал между строками текста (межстрочный интервал).</p>
+        <p>Свойство не задает промежуток между строками текста, как могло бы показаться, оно задает высоту линии текста. Это значит, что реальный промежуток между строками будет вычисляться так: line-height - font-size = расстояние между строками текста. Или наоборот line-height = font-size + расстояние между строками текста.</p>
+        <pre><code>
+   селектор {
+      line-height: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">font-family<span class='collapsible_name2'>Семейство (тип) шрифта</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font-family устанавливает тип шрифта.</p>
+        <pre><code>
+   селектор {
+      font-family: имя шрифта;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">font<span class='collapsible_name2'>Сокращение для шрифта</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font представляет собой свойство-сокращение, в котором можно использовать следующие свойства CSS: font-size, font-style, font-weight, line-height, font-family, font-variant.</p>
+        <pre><code>
+   селектор {
+      font: [font-style|font-variant|font-weight] font-size [/line-height] font-family;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-indent<span class='collapsible_name2'>Красная строка</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-indent устанавливает красную строку для текста (то есть отступ первой строки). Может быть как положительным, так и отрицательным.</p>
+        <p>Значением свойства служат любые единицы для размеров. При указании значения в % красная строка будет в процентах от ширины блока. Значение по умолчанию: 0.</p>
+        <pre><code>
+   селектор {
+      text-indent: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-align<span class='collapsible_name2'>Выравнивание текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-align устанавливает выравнивание текста: по левому краю, по правому, по центру, по левому и правому краям одновременно.</p>
+        <pre><code>
+   селектор {
+      text-align: center | left | right | justify | auto | start | end; 
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Редкое</p>
+    </div>
+    <button class="collapsible01">text-decoration<span class='collapsible_name2'>Под- над- пере- черкивание</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-decoration добавляет тексту различные эффекты: подчеркивание, перечеркивание, линию сверху.</p>
+        <pre><code>
+   селектор {
+      text-decoration: underline | line-through | overline | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-decoration-line<span class='collapsible_name2'>Расположение линии у текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-decoration-line задает расположение линии у текста. Свойство следует использовать совместно со свойствами text-decoration-style и text-decoration-color. Эти свойства расширяют действие свойства text-decoration, являясь более продвинутыми аналогами.</p>
+        <pre><code>
+   селектор {
+      text-decoration-line: underline | line-through | overline 
+		| none; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-decoration-style<span class='collapsible_name2'>Тип линии у текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-decoration-style меняет тип линии над текстом: одиночная линия, двойная, в виде точек, в виде тире, волнистая линия.</p>
+        <p>Свойство следует использовать совместно со свойствами text-decoration-line и text-decoration-color. Эти свойства расширяют действие свойства text-decoration, являясь более продвинутыми аналогами.</p>
+        <pre><code>
+   селектор {
+      text-decoration-style: solid | double | dotted | dashed | wavy;
+   }    </code></pre>
+    </div>
+    <button class="collapsible01">text-decoration-color<span class='collapsible_name2'>Цвет линии у текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-decoration-color задает цвет линии у текста. Свойство следует использовать совместно со свойствами text-decoration-line и text-decoration-style. Эти свойства расширяют действие свойства text-decoration, являясь более продвинутыми аналогами. Значением свойства служат любые единицы для цвета.</p>
+        <pre><code>
+   селектор {
+      text-decoration-color: цвет в любом CSS формате;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-transform<span class='collapsible_name2'>Смена регистра</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-transform устанавливает регистр символов текста: верхний регистр (заглавные буквы), нижний регистр (строчные маленькие буквы), может делать заглавной первую букву каждого слова.</p>
+        <pre><code>
+   селектор {
+      text-transform: capitalize | lowercase | uppercase | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">font-variant<span class='collapsible_name2'>Маленькие заглавные буквы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font-variant позволяет сделать маленькие (строчные) буквы ЗАГЛАВНЫМИ, но маленького размера. Такая запись называется капителью.</p>
+        <pre><code>
+   селектор {
+      font-variant: small-caps | normal;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">@font-face<span class='collapsible_name2'>Пользовательский шрифт</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Команда @font-face предназначена для отображения текста на веб-страницах, загружаемых с удаленного сервера или с локального компьютера пользователя. Если в команде объявлена функция local, то поиск шрифта будет проводиться в первую очередь на данном локальном компьютере. Если же шрифт не найден, будет использоваться шрифт, указанный в функции url.</p>
+        <pre><code>
+   @font-face {
+	font-family: название шрифта;
+	src: источник поиска шрифта;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">font-size-adjust<span class='collapsible_name2'>Контроль размера шрифта</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font-size-adjust позволяет контролировать размер шрифта, при неизменном font-size (увеличивать или уменьшать).</p>
+        <p>Применение: пусть в font-family задано два шрифта через запятую, например, Georgia, "Times New Roman". Пусть на компьютере пользователя нет шрифта Georgia - в этом случае применится "Times New Roman". Однако, нас ждет проблема - при одинаковом значении font-size шрифты будут выглядеть по-разному.</p>
+        <p>Это происходит из-за того, что отображаемый размер шрифта зависит в большей степени не от свойства font-size, которое определяет лишь общий размер шрифта, а от соотношения значений свойства font-size и величины x-height (x-height - это разница между размером строчной буквы "x" и прописной буквы "X" для определенного шрифта).</p>
+        <p>Это соотношение называется аспектом шрифта и рассчитывается по формуле: аспект = font-size / x-height.</p>
+        <p>Проблему размеров решает свойство font-size-adjust (оно позволяет менять аспект шрифта), которое заставит выглядеть второй шрифт такого же размера, как и первый.</p>
+        <pre><code>
+   селектор {
+	font-size-adjust: число | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">letter-spacing<span class='collapsible_name2'>Промежуток между буквами</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство letter-spacing устанавливает интервал между буквами.</p>
+        <p>Значением свойства служат любые единицы для размеров, кроме процентов. Допустимо отрицательное значение. Значение normal позволяет браузеру вычислять интервал между буквами самостоятельно (значение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	letter-spacing: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">word-spacing<span class='collapsible_name2'>Промежуток между словами</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство word-spacing устанавливает интервал между словами. Значением свойства служат любые единицы для размеров, кроме процентов. Допустимо отрицательное значение. Значение normal позволяет браузеру вычислять интервал между словами самостоятельно (значение по умолчанию).</p>
+        <p>Если для текста задано выравнивание через text-align в значении justify, то интервал между словами будет установлен автоматически, но не меньше значения, указанного через word-spacing.</p>
+        <pre><code>
+   селектор {
+	word-spacing: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-align-last<span class='collapsible_name2'>Выравнивание последней строки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-align-last устанавливает выравнивание последней строки текста: по левому краю, по правому, по центру, по левому и правому краям одновременно.</p>
+        <p>Обратите внимание на то, что если в элементе (например, в абзаце), только одна строка - то она считается одновременно первой и последней и выравнивание у нее будет такое, как задано в text-align-last, а не в text-align.</p>
+        <pre><code>
+   селектор {
+	text-align-last: center | left | right | justify | auto | start 
+		| end; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">vertical-align<span class='collapsible_name2'>Выравнивание по вертикали</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство vertical-align устанавливает вертикальное выравнивание текста.</p>
+        <p>Свойство работает только для строчных элементов inline, строчно-блочных (inline-block) и для таблиц. Для блочных элементов работать не будет.</p>
+        <pre><code>
+   селектор {
+	vertical-align: bottom | top | middle | sub | super | baseline | text-bottom | text-top;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">quotes<span class='collapsible_name2'>Вид кавычек</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство quotes задает фрагменту текста определенный тип кавычек. Кавычки добавляются автоматически к тексту внутри тега &lt;q&gt;.</p>
+        <pre><code>
+   селектор {
+	quotes: тип левой кавычка, тип правой кавычки или none или 
+		inherit; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">font-kerning<span class='collapsible_name2'>Расстояние между буквами</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство font-kerning задает кернинг или расстояние между буквами в слове. Свойство может принимать значения: auto (по умолчанию определяется браузером), normal (применяет кернинг) и none (не применяется кернинг).</p>
+        <pre><code>
+   селектор {
+	font-kerning: auto или normal или none
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-fill-color<span class='collapsible_name2'>Цвет заливки симаолов текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство left задает цвет заливки символов текста или их прозрачность с помощью значения transparent.</p>
+        <pre><code>
+   селектор {
+	text-fill-color: цвет или transparent;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-orientation<span class='collapsible_name2'>Ориентация символов в вертикальном тексте</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство left задает ориентацию символов в вертикальном тексте, т.е. к которому задано свойство writing-mode со значениями vertical-lr или vertical-rl. Свойство принимает два значения: mixed (символы поворачиваются на 90° по часовой стрелке) или upright (символы размещаются друг под другом).</p>
+        <pre><code>
+   селектор {
+	text-orientation: mixed или upright;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-stroke<span class='collapsible_name2'>Обводка символов текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-stroke задает цвет и толщину контура символов текста или его обводку. Свойство принимает значение text-stroke-width (толщина границ) и text-stroke-color (цвет границ).</p>
+        <pre><code>
+   селектор {
+	text-stroke: толщина обводки и ее цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-stroke-color<span class='collapsible_name2'>Цвет обводки символов текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-stroke-color задает цвет контура символов текста или его обводки.</p>
+        <pre><code>
+   селектор {
+	text-stroke-color: цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-stroke-width<span class='collapsible_name2'>Толщина обводки символов текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-stroke-width задает толщину контура символов текста или его обводки. Свойство принимает значения, указанные в единицах размеров в px/c⁆, em, rem и т.п. Также можно задать следующие значения: thin (тонкая линия), medium (средняя линия) и thick (толстая линия).</p>
+        <pre><code>
+   селектор {
+	text-stroke-width: число или thin или medium или thick;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">writing-mode<span class='collapsible_name2'>Направление текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство writing-mode задает вертикальное или горизонтальное направление текста на странице. Значения могут быть horizontal-tb (по горизонтали слева направо и сверху вниз), vertical-rl (по вертикали сверху вниз и справа налево), vertical-lr (по вертикали сверху вниз и слева направо).</p>
+        <pre><code>
+   селектор {
+	writing-mode: horizontal-tb или vertical-rl или vertical-lr;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Переносы</p>
+    </div>
+    <button class="collapsible01">white-space<span class='collapsible_name2'>Пробелы и переносы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство white-space устанавливает как переносить текст на новую строку, а также как отображать пробелы между словами и переносы строк (места, где был нажат Enter при наборе кода).</p>
+        <pre><code>
+   селектор {
+	white-space: nowrap | pre | pre-line | pre-wrap | normal;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">word-break<span class='collapsible_name2'>Переносы длинных слов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство word-break позволяет перенести буквы длинного слова на новую строку, если это слово не влазит в ширину контейнера.</p>
+        <pre><code>
+   селектор {
+	word-break: break-all | keep-all | normal;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">word-break<span class='collapsible_name2'>Переносы длинных слов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство word-break позволяет перенести буквы длинного слова на новую строку, если это слово не влазит в ширину контейнера.</p>
+        <pre><code>
+   селектор {
+	word-break: break-all | keep-all | normal;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">overflow-wrap<span class='collapsible_name2'>Переносы длинных слов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство overflow-wrap позволяет перенести буквы длинного слова на новую строку, если это слово не влазит в ширину контейнера.</p>
+        <pre><code>
+   селектор {
+	overflow-wrap: break-word | normal;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">overflow<span class='collapsible_name2'>Обрезание полосы прокрутки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство overflow указывает браузеру, как поступать с содержимым (текст, картинки, другие блоки), которое вылазит за границы блока (за его ширину или высоту). Браузер может скрыть вылезающую часть, добавить полосы прокрутки или ничего не делать (оставить как есть - вылезшим за границы).</p>
+        <pre><code>
+   селектор {
+	overflow: hidden | scroll | auto | visible;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">overflow-x<span class='collapsible_name2'>overflow по горизонтали</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство overflow-x указывает браузеру, как поступать с содержимым, которое вылазит за границы блока по горизонтали. Работа свойства аналогична свойству overflow.</p>
+        <pre><code>
+   селектор {
+	overflow: hidden | scroll | auto | visible;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">overflow-y<span class='collapsible_name2'>overflow по вертикали</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство overflow-y указывает браузеру, как поступать с содержимым, которое вылазит за границы блока по вертикали. Работа свойства аналогична свойству overflow.</p>
+        <pre><code>
+   селектор {
+	overflow: hidden | scroll | auto | visible;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">tab-size<span class='collapsible_name2'>Размер табуляции</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство tab-size устанавливает размер отступа, созданного клавишей Tab.</p>
+        <p>Работает только если задано свойство white-space в значении pre или pre-wrap, а также для тега pre.</p>
+        <p>Значением свойство принимает целое положительно число, которое задает количество пробелов, которому будет соответствовать клавиша Tab. Значение по умолчанию: 8 пробелов.</p>
+        <pre><code>
+   селектор {
+	tab-size: целое положительное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">text-overflow<span class='collapsible_name2'>Добавление троеточия</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-overflow добавляет троеточие в конец обрезанного текста в знак того, что текст не помещался в блок и был обрезан.</p>
+        <p>Для работы свойства текст должен быть обрезан через свойство overflow или свойство overflow-x в значении hidden, auto или scroll. Если задано visible (а так и есть по умолчанию) - text-overflow работать не будет.</p>
+        <pre><code>
+   селектор {
+	text-overflow: ellipsis | clip;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">hyphens<span class='collapsible_name2'>Расстоновка переносов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство hyphens включает переносы слов в браузере с помощью знака переноса "-". Для поддержки русского языка необходимо добавить атрибут lang="ru" к тегу, к которому применяются переносы (или к родителю этого тега). Можно просто добавить этот атрибут к тегу html. Без этого переносы работать не будут.</p>
+        <pre><code>
+   селектор {
+	hyphens: auto | manual | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">line-clamp<span class='collapsible_name2'>Ограничение текста количеством строк</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство line-clamp ограничивает текст до указанного количества строк. Вместо лишних строк в тексте ставится многоточие.</p>
+        <pre><code>
+   селектор {
+	line-clamp: none | число строк
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec2' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1'  style='margin-left: 44%;'>Декорации</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Цвет</p>
+    </div> 
+    <button class="collapsible01">color<span class='collapsible_name2'>Цвет текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство color устанавливает цвет тексту. Значением свойства служат любые единицы для цвета. Значение по умолчанию как правило черный цвет.</p>
+        <pre><code>
+   селектор {
+	color: цвет;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Границы</p>
+    </div> 
+    <button class="collapsible01">border<span class='collapsible_name2'>Границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border задает цвет, тип и толщину границы для всех сторон одновременно. Является свойством-сокращением для border-width, border-style и border-color. В отличие от сокращаемых свойств не может задавать разную границу для 4-х сторон сразу, а только одинаковую для всех.</p>
+        <pre><code>
+   селектор {
+	border: толщина тип цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-left<span class='collapsible_name2'>Левая граница</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-left задает цвет, тип и толщину для левой границы. Является свойством-сокращением для border-left-width, border-left-style и border-left-color.</p>
+        <pre><code>
+   селектор {
+	border-left: толщина тип цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-right<span class='collapsible_name2'>Правая граница</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-right задает цвет, тип и толщину для правой границы. Является свойством-сокращением для border-right-width, border-right-style и border-right-color.</p>
+        <pre><code>
+   селектор {
+	border-right: толщина тип цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-top<span class='collapsible_name2'>Верхняя граница</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-top задает цвет, тип и толщину для верхней границы. Является свойством-сокращением для border-top-width, border-top-style и border-top-color.</p>
+        <pre><code>
+   селектор {
+	border-top: толщина тип цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-bottom<span class='collapsible_name2'>Нижняя граница</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-bottom задает цвет, тип и толщину для нижней границы. Является свойством-сокращением для border-bottom-width, border-bottom-style и border-bottom-color.</p>
+        <pre><code>
+   селектор {
+	border-bottom: толщина тип цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-width<span class='collapsible_name2'>Толщина границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-width задает толщину границы для всех сторон одновременно или отдельно для каждой стороны. Является свойством-сокращением для свойств border-left-width, border-right-width, border-top-width, border-bottom-width.</p>
+        <p>Значением свойства служат любые единицы для размеров, кроме процентов, либо ключевые слова thin (граница в 2 пикселя), medium (граница в 4 пикселя) или thick (граница в 6 пикселей). Значение по умолчанию: medium.</p>
+        <pre><code>
+   селектор {
+	border-width: 1, 2, 3 или 4 значения;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-style<span class='collapsible_name2'>Тип границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-style задает стиль границы для всех сторон одновременно или отдельно для каждой стороны. Является свойством-сокращением для следующих свойств: border-left-style, border-right-style, border-top-style, border-bottom-style.</p>
+        <pre><code>
+   селектор {
+	border-style: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-color<span class='collapsible_name2'>Цвет границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-color задает цвет границы для всех сторон одновременно или отдельно для каждой стороны. Значением свойства служат любые единицы для цвета. Значение по умолчанию: такой же цвет, как и у текста блока.</p>
+        <p>Свойство является свойством-сокращением для следующих свойств: border-left-color, border-right-color, border-top-color, border-bottom-color.</p>
+        <pre><code>
+   селектор {
+	border-color: цвет;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Скругление</p>
+    </div> 
+    <button class="collapsible01">border-radius<span class='collapsible_name2'>Скруглённые уголки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-radius создает скругленные уголки для границы и фона. Значением свойства служат любые единицы для размеров. Значение по умолчанию: 0. Является сокращением для свойств border-top-left-radius, border-top-right-radius, border-bottom-left-radius, border-bottom-right-radius.</p>
+        <pre><code>
+   селектор {
+	border-radius: значение;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Рамка</p>
+    </div>
+    <button class="collapsible01">outline<span class='collapsible_name2'>Рамка</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство outline задает цвет, тип и толщину для внешней рамки (границы, которая не занимает места) для всех сторон одновременно, но в отличие от border такая граница не расширяет элемент. Является свойством-сокращением для outline-width, outline-style и outline-color (но не для outline-offset).</p>
+        <pre><code>
+   селектор {
+	outline: толщина тип цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">outline-width<span class='collapsible_name2'>Толщина рамки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство outline-width задает толщину внешней рамки - границы, которая не занимает места. Значением свойства служат любые единицы для размеров, кроме процентов, либо ключевые слова thin (граница в 2 пикселя), medium (граница в 4 пикселя) или thick (граница в 6 пикселей). Значение по умолчанию: medium.</p>
+        <pre><code>
+   селектор {
+	outline-width: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">outline-style<span class='collapsible_name2'>Тип рамки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство outline-style задает стиль внешней рамки - границы, которая не занимает места.</p>
+        <pre><code>
+   селектор {
+	outline-style: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">outline-color<span class='collapsible_name2'>Цвет рамки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство outline-color задает цвет внешней рамки - границы, которая не занимает места. Значением свойства служат любые единицы для цвета. Значение по умолчанию: такой же цвет, как и у текста блока.</p>
+        <pre><code>
+   селектор {
+	outline-color: цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">outline-offset<span class='collapsible_name2'>Смещение рамки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство outline-offset задает отступ внешней рамки - границы, которая не занимает места. Значением свойства служат любые единицы для размеров, кроме процентов. Значение по умолчанию: 0. Положительное значение сдвигает рамку наружу от элемента, отрицательное - вовнутрь.</p>
+        <pre><code>
+   селектор {
+	outline-offset: значение;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Фон</p>
+    </div>
+    <button class="collapsible01">background<span class='collapsible_name2'>Фон</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background задает одновременно все свойства фона: background-attachment, background-color, background-image, background-position, background-repeat, background-size, background-origin, background-clip.</p>
+        <p>Порядок свойств значения не имеет. Ненужные свойства можно опускать - в этом случае оно примет значение по умолчанию. Свойства background-position и background-size задаются через слеш и в этом случае порядок имеет значение (сначала позиция, потом размер).</p>
+        <p>Также свойство background принимает значение none, соответствующее отсутствию фона.</p>
+        <pre><code>
+   селектор {
+	background: сокращаемые свойства;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-color<span class='collapsible_name2'>Цвет фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-color устанавливает цвет фона элемента. Значением свойства служат любые единицы для цвета. Значение по умолчанию: transparent.</p>
+        <pre><code>
+   селектор {
+	background-color: цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-image<span class='collapsible_name2'>Картинка фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-image задает фоновую картинку элементу. По умолчанию картинка замостит своими копиями весь блок, однако, это поведение можно отменить с помощью свойства background-repeat.</p>
+        <pre><code>
+   селектор {
+	background-image: url(путь к картинке);
+   }
+   ИЛИ
+   селектор {
+	background-image: none;
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-attachment<span class='collapsible_name2'>Поведение фона при прокрутке</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-attachment задает каким образом прокручивать фоновую картинку элемента: вместе с текстом или текст будет скользить по картинке.</p>
+        <pre><code>
+   селектор {
+	background-attachment: fixed | scroll | local;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-position<span class='collapsible_name2'>Позиция фоновой картинки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-position задает местоположение фоновой картинки элемента. Местоположение можно задавать с помощью любых единиц для размеров. Первое значение обозначает отступ слева, второе - отступ сверху.</p>
+        <p>Можно также задавать положение ключевыми словами. В этом случае порядок значений не важен. Ключевые слова для вертикали: top, center, bottom. Ключевые слова по горизонтали: left, center, right.</p>
+        <p>Чтобы разместить картинку ключевым словом, нужно указать одно значение для вертикали и одно для горизонтали. К примеру, если указать значение top right, то картинка станет сверху справа.</p>
+        <p>Порядок слов неважен: можно написать top right, а можно - right top. Если есть ключевое слово center - его можно опускать. Например, top center, все равно что просто top. А center center все равно что просто center.</p>
+        <pre><code>
+   селектор {
+	background-position: два значения через пробел;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-repeat<span class='collapsible_name2'>Способ повторения фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-repeat задает каким образом повторять фоновую картинку элемента. По умолчанию картинка повторяется и по оси X, и по оси Y, таким образом покрывая собой всю доступную область.</p>
+        <pre><code>
+   селектор {
+	background-repeat: no-repeat | repeat | repeat-x | repeat-y | space | round;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-origin<span class='collapsible_name2'>Позиция картинки фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-origin задает то, как фоновая картинка (именно картинка, не заливка) будет размещаться относительно элемента: часть картинки фона будет залазить под границу, фон не будет залазить под границу или фон будет размещаться только над содержимым элемента (то есть padding отодвинет фон).</p>
+        <pre><code>
+   селектор {
+	background-origin: padding-box | border-box | c   ontent-box;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-clip<span class='collapsible_name2'>Позиция фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-clip задает как фоновая заливка или фоновая картинка будет размещаться относительно элемента: часть фона будет залазить под границу, фон не будет залазить под границу или фон будет размещаться только над содержимым элемента (то есть padding отодвинет фон).</p>
+        <pre><code>
+   селектор {
+	background-clip: padding-box | border-box | content-box;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-position-x<span class='collapsible_name2'>Позиция фона по горизонтали</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-position-x задает местоположение фоновой картинки элемента по горизонтали.</p>
+        <p>Свойство может принимать следующие значения: left, center, right, а также можно указать положение фона в процентах или пикселях.</p>
+        <pre><code>
+   селектор {
+	background-position-x: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-position-y<span class='collapsible_name2'>Позиция фона по вертикали</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-position-y задает местоположение фоновой картинки элемента по вертикали.</p>
+        <p>Свойство может принимать следующие значения: top, center, bottom, а также можно указать положение фона в процентах или пикселях.</p>
+        <pre><code>
+   селектор {
+	background-position-y: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-size<span class='collapsible_name2'>Размер картиннки фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-size задает размер картинки фона. Значением свойства служат любые единицы для размеров, либо ключевые слова auto, cover или contain.</p>
+        <pre><code>
+   селектор {
+	background-size: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">blur()<span class='collapsible_name2'>Размытие фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция blur позволяет размывать фоновые изображения по Гауссу.</p>
+        <pre><code>
+   селектор {
+	filter: blur(размер размытия);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">brightness()<span class='collapsible_name2'>Яркость фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция brightness позволяет изменить яркость фонового изображения. Исходная яркость фона определяется значением 100% или 1, при их уменьшении снижается и яркость изображения. Соответственно при увеличении значения более 100% яркость повышается. Отрицательные значения не применяются, а пустое значение автоматически воспринимается как 1.</p>
+        <pre><code>
+   селектор {
+	filter: brightness(число);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">background-blend-mode<span class='collapsible_name2'>Наложение фонового изображния на фоновый цвет</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство background-blend-mode задает режим наложения фонового изображения на фоновый цвет или другие изображения. В данном свойстве можно также указать несколько значений через запятую, которые будут применяться в том же порядке. Значения для свойства аналогичны основным режимам графических редакторов. Режимы: normal(Обычный), multiply(Умножение), screen(Осветление), overlay(Перекрытие).</p>
+        <pre><code>
+   селектор {
+	background-blend-mode: режимы;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">drop-shadow()<span class='collapsible_name2'>Тень фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция drop-shadow позволяет добавить тень к фоновому изображению.</p>
+        <pre><code>
+   селектор {
+	filter: drop-shadow(сдвиг по x, сдвиг по y, радиус размытия, 
+		цвет); 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">hue-rotate()<span class='collapsible_name2'>Цветность фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция hue-rotate позволяет изменить цветность фонового изображения посредством поворота оттенка на цветовом круге. Значения свойства указываются в градусах, обозначающих угол цветового круга. Значение 0 или 360 обозначает, что изображение остается неизменным, а любое число расположенные между данным диапазон приводит к изменению оттенка фона. По умолчанию значение равно 0deg.</p>
+        <pre><code>
+   селектор {
+	filter: hue-rotate(угол);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">invert()<span class='collapsible_name2'>Инвертирование цвета фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция invert позволяет инвертировать цвета в фоновом изображении. Значение 0 обозначает, что изображение остается исходным. Значение 100% или 1 полностью инвертирует цвета фона. Любое число расположенное в данном диапазоне частично инвертирует цвета. Отрицательное значение нельзя задавать. По умолчанию значение равно 0.</p>
+        <pre><code>
+   селектор {
+	filter: invert(число);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">opacity()<span class='collapsible_name2'>Прозрачность фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция opacity позволяет изменять прозрачность фонового изображения. Значение 100% или 1 оставляет изображению исходную прозрачность. Значение 0 обозначает, что изображение станет полностью прозрачным. Любое число расположенное в данном диапазоне задает частичную прозрачность фона. Отрицательное значение нельзя задавать. По умолчанию значение равно 1.</p>
+        <pre><code>
+   селектор {
+	filter: opacity(число);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">sepia()<span class='collapsible_name2'>Сепия фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция sepia позволяет сделать из фонового изображения сепию - черно-белое изображение с коричневым оттенком. Значение 0 обозначает, что изображение останется исходным. Значение 100% или 1 полностью превращает фон в сепию. Любое число расположенное в данном диапазоне задает применение сепию линейно. Отрицательное значение нельзя задавать. По умолчанию значение равно 0.</p>
+        <pre><code>
+   селектор {
+	filter: sepia(число);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">mix-blend-mode<span class='collapsible_name2'>Режим наложения исходного цвета на фон</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство mix-blend-mode задает режим наложения исходного цвета на фоновый цвет или фоновое изображение. Значения для свойства аналогичны основным режимам графических редакторов. Режимы: normal(Обычный), multiply(Умножение), screen(Осветление), overlay(Перекрытие).</p>
+        <pre><code>
+   селектор {
+	filter: sepia(число);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">filter<span class='collapsible_name2'>Стиль для фона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство filter задает фоновому изображению определенный художественный стиль или фильтр. Свойство может принимать в качестве значений названия художественных стилей, формируемых функцией filter или none (отмена выбранного фильтра).</p>
+        <pre><code>
+   селектор {
+	filter: художественный стиль или none;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Тени</p>
+    </div> 
+    <button class="collapsible01">text-shadow<span class='collapsible_name2'>Тень текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство text-shadow задает тень тексту. В качестве значения свойство принимает 4 параметра, перечисляемые через пробел, либо ключевое слово none, отменяющее тень совсем (это значение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	text-shadow: сдвиг_по_x сдвиг_по_y размытие цвет;
+   }
+   ИЛИ
+   селектор {
+	text-shadow: none;
+   }  
+        </code></pre>
+    </div>
+    <button class="collapsible01">box-shadow<span class='collapsible_name2'>Тень контейнера</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство box-shadow задает тень блоку. В качестве значения свойство принимает 6 параметров, перечисляемые через пробел, либо ключевое слово none, отменяющее тень совсем.</p>
+        <pre><code>
+   селектор {
+	box-shadow: inset сдвиг_по_x сдвиг_по_y размытие размер_тени цвет;
+   }
+   ИЛИ
+   селектор {
+	box-shadow: none;
+   } 
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Прозрачность</p>
+    </div> 
+    <button class="collapsible01">opacity<span class='collapsible_name2'>Прозрачность</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство opacity задает полупрозрачность элементу. Если у элемента задана полупрозрачность - это значит, что через него будут просвечивать те элементы, которые лежат под ним.</p>
+        <p>Свойство принимает своим значением дробное число от 0 до 1. При этом значение 0 - это полная прозрачность, а значение 1 - полная непрозрачность. Промежуточное значение, например 0.3, задает полупрозрачность. Значение по умолчанию: 1.</p>
+        <pre><code>
+   селектор {
+	opacity: число от 0 до 1;
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">visibility<span class='collapsible_name2'>Видимость элементов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство visibility задает невидимость элементу. При этом все остальные элементы будут вести себя так, будто элемент никуда не пропадал.</p>
+        <pre><code>
+   селектор {
+	visibility: visible или hidden или collapse;
+   } 
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Градиенты</p>
+    </div> 
+    <button class="collapsible01">linear-gradient<span class='collapsible_name2'>Линейный градиент</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция linear-gradient задает линейный градиент. Применяется к свойствам, которые задают картинку фона: background, background-image или картинку границы: border-image, background-image-source.</p>
+        <pre><code>
+   селектор {
+	background: linear-gradient([угол или направление], цвет1 размер1, цвет2 размер2...);
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">radial-gradient<span class='collapsible_name2'>Радиальный градиент</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция radial-gradient задает радиальный градиент. Данная функция применяется к свойствам, которые задают картинку фона: background, background-image или картинку границы: border-image, background-image-source.</p>
+        <pre><code>
+   селектор {
+	background: radial-gradient([форма тип позиция], цвет1 размер1, цвет2 размер2...);
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">repeating-linear-gradient<span class='collapsible_name2'>Повторяющийся линейный градиент</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция repeating-linear-gradient задает повторяющийся линейный градиент. Это значит, что мы задаем определенный узор градиента, например, от 0px до 10px - градиент от красного к голубому и этот градиент будет повторяться на весь блок: 0px до 10px, от 10px до 20px, от 20px до 30px и так далее.</p>
+        <p>Данная функция применяется к свойствам, которые задают картинку фона: background, background-image или картинку границы: border-image, background-image-source.</p>
+        <pre><code>
+   селектор {
+	background: repeating-linear-gradient([направление], цвет1 размер1, цвет2 размер2...);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">repeating-radial-gradient<span class='collapsible_name2'>Повторяющийся радиальный градиент</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция repeating-radial-gradient задает повторяющийся радиальный градиент. Это значит, что мы задаем определенный узор градиента, например, от 0px до 10px - градиент от красного к голубому и этот градиент будет повторяться на весь блок: 0px до 10px, от 10px до 20px, от 20px до 30px и так далее.</p>
+        <p>Функция работает с теми же параметрами, что и radial-gradient, отличие только в эффекте повторения. Принимаемые параметры смотрите в описании radial-gradient.</p>
+        <pre><code>
+   селектор {
+	background: repeating-radial-gradient([форма тип позиция], цвет1 размер1, цвет2 размер2...);
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Картинка границы</p>
+    </div>
+    <button class="collapsible01">border-image<span class='collapsible_name2'>Граница в виде картинки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-image задает картинку для границы, оно является свойством сокращением для свойств border-image-source, border-image-slice, border-image-repeat, border-image-width и border-image-outset. При этом свойство-сокращение появилось в CSS раньше сокращаемых свойств и поэтому поддерживается в большем количестве старых браузеров.</p>
+        <pre><code>
+   селектор {
+	border-image: url(путь к картинке) смещение/толщина/сдвиг повторение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-image-source<span class='collapsible_name2'>Путь к картинке границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-image-source задает картинку для границы. Для более подробной информации смотрите свойство border-image.</p>
+        <pre><code>
+   селектор {
+	border-image-source: url(путь к картинке);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-image-slice<span class='collapsible_name2'>Разбиение картики для границы на части</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-image-slice указывает браузеру, какие части картинки пойдут на уголки, а какие на стороны (а какая часть будет центральной). На уголки идут 4 части, на стороны идут 4 части и одна часть (центральная) идет на фон элемента (опционально, ключевое слово fill).</p>
+        <p>Для более подробной информации смотрите свойство border-image.</p>
+        <pre><code>
+   селектор {
+	border-image-slice: от 1-го до 4-х чисел | от 1-го до 4-х процентов;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-image-repeat<span class='collapsible_name2'>Способ повторения картинки границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-image-repeat задает способ повторения внутренней части границы в виде картинки. Для более подробной информации смотрите свойство border-image.</p>
+        <pre><code>
+   селектор {
+	border-image-repeat: stretch | repeat | round;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-image-outset<span class='collapsible_name2'>Сдвиг картинки границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-image-outset позволяет отодвинуть рамку за пределы элемента. В качестве значения указывается число без указания единиц измерения либо любые единицы для размеров, кроме процентов. Если указано число без единиц, то оно является множителем, на который умножается значения свойства border-width. Отрицательные значения не поддерживаются.</p>
+        <p>Для более подробной информации по картинкам для границы смотрите свойство border-image.</p>
+        <pre><code>
+   селектор {
+	border-image-outset: положительное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-image-width<span class='collapsible_name2'>Масштабирование картинки границы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-image-width управляет шириной видимой части рамки, масштабирует ее. Если это значение больше ширины border-width, картинка рамки заползет под содержимое.</p>
+        <p>Для более подробной информации смотрите свойство border-image.</p>
+        <pre><code>
+   селектор {
+	border-image-width: CSS единицы | проценты | число | auto;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Работа с мышкой</p>
+    </div>
+    <button class="collapsible01">::selection<span class='collapsible_name2'>Выделение текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдоэлемент selection позволяет задать цвет и фон выделенному тексту.</p>
+        <pre><code>
+   селектор::selection {
+	
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">user-select<span class='collapsible_name2'>Запрет выделения текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство user-select управляет поведением выделения текста и других элементов на странице.</p>
+        <pre><code>
+   селектор {
+	user-select: none | contain | all | auto | text;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">pointer-events<span class='collapsible_name2'>Реакция на мышь</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство pointer-events позволяет убрать реакцию элемента на события мыши. Свойство принимает два значения. Значение none убирает реакцию, а значение auto заставляет элемент вести себя как обычно (значение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	pointer-events: none | auto;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">cursor<span class='collapsible_name2'>Вид курсора</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство cursor устанавливает внешний вид курсора при наведении на элемент.</p>
+        <pre><code>
+   селектор {
+	cursor: default | pointer | help | not-allowed | text | vertical-text | progress | wait | ......;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Стиль</p>
+    </div>
+    <button class="collapsible01">!important<span class='collapsible_name2'>Приоритет стиля</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Команда !important задает приоритет стилю или любому CSS-свойству, для которого она указана.</p>
+        <pre><code>
+   селектор {
+	свойство: значение !important;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">@media<span class='collapsible_name2'>Стиль для типа носителей</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Команда @media предназначена для импорта CSS-файла в текущую стилевую таблицу. В данной команде можно указывать следующие типы носителей: all (все типы, используется по умолчанию), print (устройства для печати), screen (экран монитора), speech (речевые синтезаторы).</p>
+        <pre><code>
+   media тип носителя {
+	
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">@supports<span class='collapsible_name2'>Стиль элементов, возможности которых поддерживаются браузером</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Команда @supports задает стиль элементам с учетом возможностей, поддерживаемых браузером. В данной команде можно создавать условия с помощью логических операторов not, and, or.</p>
+        <pre><code>
+   @supports условие {
+	
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">@import<span class='collapsible_name2'>Импорт CSS-файла в текущую стилевую таблицу</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Команда @import предназначена для импорта CSS-файла в текущую стилевую таблицу. В данной команде можно указывать для каких типов носителей предназначен импорт: all (все типы, используется по умолчанию), print (устройства для печати), screen (экран монитора).</p>
+        <pre><code>
+   import url('имя файла') [типы носителей];
+   @import 'имя файла' [типы носителей];
+        </code></pre>
+    </div>
+    <button class="collapsible01">:default<span class='collapsible_name2'>Стиль элементов по умолчанию</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс default задает стиль одному элементу из группы, которая имеет тип по умолчанию. Данные элементы должны находится внутри родительского тега &lt;form&gt;.</p>
+        <pre><code>
+   селектор:default {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:fullscreen<span class='collapsible_name2'>Стиль элементов в полноэкранном режиме</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс focus-within задает стиль элементам для полноэкранного режима браузера. Для того, чтобы перейти из стандартного режима отображения странички в полноэкранный и обратно нужно нажать клавишу F11 на клавиатуре.</p>
+        <pre><code>
+   селектор:fullscreen {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:in-range<span class='collapsible_name2'>Стиль элементов с заданным диапазоном значений</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс in-range задает стиль элементам, у которых значения заданы в определенном диапазоне. Диапазон значений должен быть задан атрибутами min и max.</p>
+        <pre><code>
+   селектор:in-range {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:indeterminate<span class='collapsible_name2'>Стиль для переключателей, которые находятся в неопределённом состоянии</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс indeterminate задает стиль переключателям, которые находятся в неопределенном состоянии, т.е. не отмечены флажком.</p>
+        <pre><code>
+   селектор:indeterminate {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:invalid<span class='collapsible_name2'>Стиль для инпута, в который ввели неправильное значение</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс invalid задает стиль для инпута, в который ввели неправильное значение или значение не соответствующее указанному типу.</p>
+        <pre><code>
+   селектор:invalid {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:optional<span class='collapsible_name2'>Стиль для инпута, у которого нет атрибута required</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс optional задает стиль инпуту, у которого не задан атрибут required, т.е. данный псевдокласс применяется к необязательным инпутам.</p>
+        <pre><code>
+   селектор:optional {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:out-of-range<span class='collapsible_name2'>Стиль для элементов, значения которых выходят за рамки диапазона</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс out-of-range задает стиль элементам, значения которых выходят за рамки указанного диапазона. Диапазон значений должен быть задан атрибутами min и max.</p>
+        <pre><code>
+   селектор:out-of-range {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:placeholder-shown<span class='collapsible_name2'>Стиль элементов при отображении текста-подсказки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс placeholder-shown задает стиль инпуту или текстареа, у которых отображается т.н. текст-подсказка, исчезающий после начала ввода текста.</p>
+        <pre><code>
+   селектор:placeholder-shown {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:read-only<span class='collapsible_name2'>Стиль инпутов с атрибутом readonly</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс read-only задает стиль инпутам с атрибутом readonly. Такой инпут предназначен только для чтения, т.е. ввести или изменить в нем данные невозможно, однако их можно выделить и скопировать.</p>
+        <pre><code>
+   селектор:read-only {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:read-write<span class='collapsible_name2'>Стиль инпутов, доступных для изменения</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс read-write задает стиль инпутам, значения которых доступны для изменения.</p>
+        <pre><code>
+   селектор:read-write {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:required<span class='collapsible_name2'>Стиль для инпута, у которого задан атрибут required</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс required задает стиль инпуту, у которого есть атрибут required, т.е. данный псевдокласс применяется к обязательным для заполнения инпутам.</p>
+        <pre><code>
+   селектор:required {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:valid<span class='collapsible_name2'>Стиль для инпута, в который ввели правильное значение</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс valid задает стиль для инпутов, в которые ввели правильное значение или значение соответствующее указанному типу.</p>
+        <pre><code>
+   селектор:valid {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">caret-color<span class='collapsible_name2'>Цвет текстового курсора в инпуте</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство caret-color задает цвет текстового курсора в инпуте, который появляется при вводе текста. Свойство может принимать два значения: auto (по умолчанию) и выбранный пользователем цвет.</p>
+        <pre><code>
+   селектор {
+	caret-color: auto или цвет;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">:focus-within<span class='collapsible_name2'>Стиль элементов в фокусе</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс focus-within задает стиль элементам, которые находятся в фокусе. В отличие от псевдокласса focus, который задает стиль непосредственно самому элементу, focus-within задает стиль для элемента-родителя.</p>
+        <pre><code>
+   селектор:focus-within {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">scroll-behavior<span class='collapsible_name2'>Прокрутка внутри элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство scroll-behavior задает плавную или мгновенную прокрутку внутри элемента. Свойство принимает два значения auto (мгновенный переход к элементу) и smooth (плавный переход).</p>
+        <pre><code>
+   селектор {
+	scroll-behavior: auto или smooth;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec3' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1' style='margin-left: 47%;'>Теги</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Списки</p>
+    </div> 
+    <button class="collapsible01">list-style-type<span class='collapsible_name2'>Тип маркеров списка</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство list-style-type позволяет для списка ul вместо маркеров-точек сделать квадраты или окружности. Для списка ol вместо обычных цифр можно сделать римские, нумерацию в виде букв: латинских или греческих.</p>
+        <pre><code>
+   селектор {
+	list-style-type: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">list-style-position<span class='collapsible_name2'>Позиция маркеров</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство list-style-position устанавливает то, как будет отображаться маркер списка: внутри или снаружи списка ul или ol.</p>
+        <pre><code>
+   селектор {
+	list-style-position: inside | outside;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">list-style-image<span class='collapsible_name2'>Картинка для маркеров</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство list-style-image устанавливает картинку для маркера списка.</p>
+        <pre><code>
+   селектор {
+	list-style-image: url("путь к файлу картинки") | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">list-style<span class='collapsible_name2'>Сокращение для списков</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство list-style позволяет одновременно установить тип маркера list-style-type, картинку list-style-image и его положение list-style-position для списков ul или ol.</p>
+        <p>Порядок свойств значения не имеет.</p>
+        <pre><code>
+   селектор {
+	list-style: тип, позиция, картинка;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Таблицы</p>
+    </div> 
+    <button class="collapsible01">border-collapse<span class='collapsible_name2'>Схлопывание границ</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-collapse заставляет двойные границы между ячейками td или ячейками th HTML таблицы (и между границей ячейки и самой таблицы) схлопнуться и выглядеть как одна.</p>
+        <p>Данное свойство применяется только для таблиц и для элементов с display в значении table или inline-table. Для обычных блочных элементов оно, к большому сожалению, работать не будет. Учтите, что применять следует для таблицы, а не для ее ячеек.</p>
+        <pre><code>
+   селектор {
+	border-collapse: collapse | separate;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">border-spacing<span class='collapsible_name2'>Расстояние между ячейками</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство border-spacing задает отступ между ячейками td или ячейками th HTML таблицы (и между границей ячейки и самой таблицы). Значением свойства служат любые единицы для размеров, кроме процентов.</p>
+        <pre><code>
+   селектор {
+	border-spacing: одно или два значения;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">empty-cells<span class='collapsible_name2'>Отображние пустых ячеек</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство empty-cells указывает браузеру как отображать фон и границу пустых ячеек td или ячеек th HTML таблицы: показывать или нет.</p>
+        <p>Ячейка считается пустой в следующих случаях: нет вообще никаких символов, в ячейке содержится только пробел (один или несколько), перевод строки или символ табуляции, либо свойство visibility установлено как hidden.</p>
+        <p>Чтобы сделать ячейку не пустой, но при этом без видимого текста, используют следующий прием: в ячейку записывают неразрывный пробел.
+        </p>
+        <p>Свойство не работает, если задан border-collapse в значении collapse.
+        </p>
+        <pre><code>
+   селектор {
+	empty-cells: show | hide;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">table-layout<span class='collapsible_name2'>Расчёт ячеек таблицы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>В некоторых случаях браузер может уменьшать ячейки даже если им задана ширина. Свойство table-layout позволяет указать браузеру то, что ячейки таблицы всегда должны заданной ширины.</p>
+        <pre><code>
+   селектор {
+	table-layout: fixed | auto | inherit;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Ссылки</p>
+    </div> 
+    <button class="collapsible01">:link<span class='collapsible_name2'>Ссылка до посещения</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс link задает стили для непосещенных ссылок. Обычно этот псевдокласс применяется совместно с псевдоклассами hover, visited и active.</p>
+        <pre><code>
+   a:link{}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:visited<span class='collapsible_name2'>Посещённая ссылка</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс visited задает стили для посещенных ссылок. Обычно этот псевдокласс применяется совместно с псевдоклассами link, hover и active.</p>
+        <pre><code>
+   a:visited {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:hover<span class='collapsible_name2'>Наведение на ссылку</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс hover задает стили для ссылки, на которую мы навели мышкой. Обычно этот псевдокласс применяется совместно с псевдоклассами link, visited и active.</p>
+        <pre><code>
+   a:hover {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:active<span class='collapsible_name2'>Нажатие на ссылку</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс active задает стили для ссылки в момент нажатия на нее (нажали и не отпустили кнопку - пока мы ее не отпускаем, заданные стили работают).</p>
+        <p>Обычно этот псевдокласс применяется совместно с псевдоклассами link, hover и active.</p>
+        <pre><code>
+   a:active {}
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Формы</p>
+    </div> 
+    <button class="collapsible01">:focus<span class='collapsible_name2'>Инпут в фокусе</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс focus задает стили для инпута, текстареа или ссылки с фокусом ввода. Фокус ввода - это когда мы нажали на инпут и там моргает курсор-палочка (можно вводить текст).</p>
+        <pre><code>
+   input:focus {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">::placeholder<span class='collapsible_name2'>Подсказка в инпуте</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдоэлемент placeholder задает стили для подсказки placeholder в тегах input или textarea.</p>
+        <pre><code>
+   селектор::placeholder {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:checked<span class='collapsible_name2'>Отмеченный флажок или радио</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс checked позволяет поймать отмеченный чекбокс или radio.</p>
+        <p>К сожалению, стили для их украшения задать нельзя. К примеру нельзя задать фон или цвет границы (можно задавать, к примеру, ширину и высоту, но они окажут не такое влияние, как можно было бы ожидать).</p>
+        <p>Несмотря на это, можно задать стили для соседних элементов, например, так: input:checked + p зададим стили для абзаца, который находится непосредственно под отмеченным инпутом.</p>
+        <pre><code>
+   элемент:checked {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:disabled<span class='collapsible_name2'>Неактивный инпут</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс disabled задает стили для неактивного инпута. Под неактивным имеется ввиду инпут, которому задан атрибут disabled.</p>
+        <pre><code>
+   input:disabled {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:enabled<span class='collapsible_name2'>Активный инпут</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс enabled задает стили для активного инпута. Под активным имеется ввиду инпут, которому не задан атрибут disabled.</p>
+        <pre><code>
+   input:enabled {}
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec4' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1' style='margin-left: 45%;'>Размеры</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Размеры</p>
+    </div> 
+    <button class="collapsible01">width<span class='collapsible_name2'>Ширина блока</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство width устанавливает ширину элемента. Значением свойства служат любые единицы для размеров либо ключевое свойство auto, предоставляющее браузеру самостоятельно вычислять размер элемента (поведение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	width: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">height<span class='collapsible_name2'>Высота блока</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство height устанавливает высоту элемента. Значением свойства служат любые единицы для размеров либо ключевое свойство auto, предоставляющее браузеру самостоятельно вычислять размер элемента (поведение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	height: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">min-width<span class='collapsible_name2'>Минимальная ширина</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство min-width устанавливает минимальную ширину элемента. Значением свойства служат любые единицы для размеров либо ключевое слово none, означающее отсутствие значения.</p>
+        <p>Обычно задается для элемента с плавающей шириной (ширина задана в процентах или не задана вообще, а элемент по ширине раздвигается своим содержимым). Если ширина элемента задана в процентах - при уменьшении окна браузера она будет уменьшаться, пока не достигнет значения min-width.</p>
+        <pre><code>
+   селектор {
+	min-width: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">max-width<span class='collapsible_name2'>Максимальная ширина</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство max-width устанавливает максимальную ширину элемента. Значением свойства служат любые единицы для размеров либо ключевое слово none, означающее отсутствие значения.</p>
+        <p>Свойство max-width устанавливает максимальную ширину элемента. Значением свойства служат любые единицы для размеров либо ключевое слово none, означающее отсутствие значения.</p>
+        <pre><code>
+   селектор {
+	max-width: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">min-height<span class='collapsible_name2'>Минимальная высота</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство min-height устанавливает минимальную высоту элемента. Значением свойства служат любые единицы для размеров либо ключевое слово none, означающее отсутствие значения.</p>
+        <p>Обычно задается для элемента с плавающей высотой (высота задана в процентах или не задана вообще, а элемент по высоте раздвигается своим содержимым).</p>
+        <p>Если задана минимальная высота - то меньше этой высоты элемент не сможет стать. Если текста меньше, чем нужно для min-height, элемент будет иметь высоту min-height.</p>
+        <p>Если же текста больше - высота элемента вычислится в зависимости от количества текста.</p>
+        <pre><code>
+   селектор {
+	min-height: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">max-height<span class='collapsible_name2'>Максимальная высота</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство max-height устанавливает максимальную высоту элемента. Значением свойства служат любые единицы для размеров либо ключевое слово none, означающее отсутствие значения.</p>
+        <p>Обычно задается для элемента с плавающей высотой (высота задана в процентах или не задана вообще, а элемент по высоте раздвигается своим содержимым). Если задана максимальная высота - то больше этой высоты элемент не сможет стать.</p>
+        <pre><code>
+   селектор {
+	max-height: значение;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Отступы</p>
+    </div> 
+    <button class="collapsible01">margin<span class='collapsible_name2'>Внешний отступ</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство margin устанавливает внешний отступ элемента. Значением свойства служат любые единицы для размеров либо ключевое свойство auto, предоставляющее браузеру самостоятельно вычислять отступ элемента. По умолчанию каждый браузер может добавлять элементам различные отступы.</p>
+        <p>Свойство является сокращением для свойств margin-top, margin-right, margin-bottom, margin-left.</p>
+        <p>Свойство margin принимает 1, 2, 3 или 4 значения, перечисляемые через пробел.</p>
+        <pre><code>
+   селектор {
+	margin: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">padding<span class='collapsible_name2'>Внутренний отступ</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство padding устанавливает внутренний отступ элемента. Значением свойства служат любые единицы для размеров. По умолчанию каждый браузер может добавлять элементам различные отступы. Свойство является сокращением для свойств padding-top, padding-right, padding-bottom, padding-left.</p>
+        <pre><code>
+   селектор {
+	padding: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">padding-block-end<span class='collapsible_name2'>Конечный внутренний отступ элемента по блочной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство padding-block-end задает конечный внутренний отступ элемента по блочной (вертикальной) оси.</p>
+        <pre><code>
+   селектор {
+	padding-block-end: размер;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">padding-block-start<span class='collapsible_name2'>Начальный внутренний отступ элемента по блочной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство padding-block-start задает начальный внутренний отступ элемента по блочной (вертикальной) оси.</p>
+        <pre><code>
+   селектор {
+	padding-block-start: размер;
+   }   
+        </code></pre>
+    </div>
+    <button class="collapsible01">padding-inline-end<span class='collapsible_name2'>Конечный внутренний отступ элемента по строчной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство padding-inline-end задает конечный внутренний отступ элемента по строчной (горизонтальной) оси.</p>
+        <pre><code>
+   селектор {
+	padding-inline-end: размер;
+   }   
+        </code></pre>
+    </div>
+    <button class="collapsible01">padding-inline-start<span class='collapsible_name2'>Начальный внутренний отступ элемента по строчной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство padding-inline-start задает начальный внутренний отступ элемента по строчной (горизонтальной) оси.</p>
+        <pre><code>
+   селектор {
+	padding-inline-start: размер;
+   }  
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Разное</p>
+    </div> 
+    <button class="collapsible01">box-sizing<span class='collapsible_name2'>Способ рассчёта padding, border и width</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство box-sizing позволяет менять способ расчета размеров элемента.</p>
+        <p>По умолчанию добавление padding расширяет элемент: если мы задали ширину width 100px и padding-left в 20px, то реальная ширина элемента будет 120px.</p>
+        <p>А если мы зададим еще и border-left в 10px, то реальная ширина элемента станет 130px. То есть padding и border расширяют блок (и по ширине, и по высоте). Это поведение можно поменять с помощью box-sizing.</p>
+        <pre><code>
+   селектор {
+	box-sizing: content-box | border-box;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">display<span class='collapsible_name2'>Способ отображения элементов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство display - задает способ отображения элемента браузером (например, block - блочный или inline - строчный).</p>
+        <pre><code>
+   селектор {
+	display: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">resize<span class='collapsible_name2'>Изменение размера</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство resize запрещает или разрешает изменение размеров textarea или других элементов (с другими элементами работает не во всех браузерах).</p>
+        <pre><code>
+   селектор {
+	resize: both | horizontal | vertical | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">aspect-ratio<span class='collapsible_name2'>Соотношение сторон элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство aspect-ratio задает выравнивание элементов вдоль поперечной оси для flex блоков и по горизонтальной оси для гридов. Применяется к родительскому элементу.</p>
+        <pre><code>
+   селектор {
+	aspect-ratio: auto или соотношение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">object-fit<span class='collapsible_name2'>Масштабирование элементов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство object-fit задает соотношение сторон или масштабирование таких элементов как изображение или видео.</p>
+        <pre><code>
+   селектор {
+	object-fit: fill или contain или cover или none;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Вычисления</p>
+    </div> 
+    <button class="collapsible01">calc()<span class='collapsible_name2'>Математические операции</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция calc позволяет производить вычисления значений CSS свойств. Функция в качестве параметра принимает математическое выражение, результат вычисления которого можно использовать как значение CSS свойства. Выражение может включать операторы +, -, *, /.</p>
+        <pre><code>
+   селектор {
+	свойство: calc(выражение);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">min()<span class='collapsible_name2'>Минимальное из значений</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция min позволяет выбрать минимальное из переданных значений. Функция в качестве параметров принимает два и более значений, разделенных запятыми, и возвращает минимальное из них.</p>
+        <pre><code>
+   селектор {
+	свойство: min(значение1, значение2);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">max()<span class='collapsible_name2'>Максимальное из значений</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция max позволяет выбрать максимальное из переданных значений. Функция в качестве параметров принимает два и более значений, разделенных запятыми, и возвращает максимальное из них.</p>
+        <pre><code>
+   селектор {
+	свойство: max(значение1, значение2);
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Единицы размеров</p>
+    </div>
+    <button class="collapsible01">px<span class='collapsible_name2'>Размер в пикселях</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Абсолютная единица измерения px представляет собой ячейку на матрице электронного устройства. К примеру, если ширина экрана смартфона равна 480px, это значит, что на экране расположено 480 ячеек, каждая из которых равна 1px.</p>
+    </div>
+    <button class="collapsible01">em<span class='collapsible_name2'>Размер в em</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Относительная единица измерения em устанавливает размер шрифта дочернему элементу, ориентируясь на размер его родителя. К примеру, шрифт, равный 2em означает, что он больше своего родителя в два раза.</p>
+    </div>
+    <button class="collapsible01">rem<span class='collapsible_name2'>Размер в rem</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Относительная единица измерения rem устанавливает размер шрифта элементу в зависимости от шрифта корневого элемента - &lt;html&gt;. К примеру, шрифт, равный 2rem означает, что он больше корневого элемента в два раза.</p>
+    </div>
+    <button class="collapsible01">%<span class='collapsible_name2'>Размер в процентах</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Относительная единица измерения % устанавливает размер дочернего элемента относительно размера его родителя. К примеру, ширина прямоугольника, равная 50% означает, что он в два раза меньше своего родителя.</p>
+    </div>
+    <button class="collapsible01">fr<span class='collapsible_name2'>Размер в фракциях</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Единица гибкости fr обозначает долю или фракцию от общего размера пространства, в котором находится элемент. Преимуществом использования fr является его адаптивность к разным контейнерам или разрешениям экрана, поскольку fr просто распределяет все пространство на указанное количество фракций (частей) без привязки к их точному размеру в пикселях.</p>
+    </div>
+    <button class="collapsible01">vw<span class='collapsible_name2'>Размер в vw</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Относительная единица измерения vw равна 1% от ширины области просмотра, например, ширины вкладки браузера.</p>
+    </div>
+    <button class="collapsible01">vh<span class='collapsible_name2'>Размер в vh</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Относительная единица измерения vh равна 1% от высоты области просмотра или, к примеру, высоты окошка браузера.</p>
+    </div>
+    <button class="collapsible01">vmax<span class='collapsible_name2'>Размер в vmax</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Относительная единица измерения vmax равна наибольшему значению из высоты и ширины области просмотра - vh и vw соответственно.</p>
+    </div>
+    <button class="collapsible01">vmin<span class='collapsible_name2'>Размер в vmin</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Относительная единица измерения vmin равна наименьшему значению из высоты и ширины области просмотра - vh и vw соответственно.</p>
+    </div>
+    <div class='symbol1' id='sec5' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1'  style='margin-left: 43%;'>Размещение</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Флексы</p>
+    </div> 
+    <button class="collapsible01">flex-direction<span class='collapsible_name2'>Направление осей</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство flex-direction устанавливает направление главной и поперечной оси или, говоря другими словами, расставляет элементы в ряд или в колонку.</p>
+        <p>Применяется к родительскому элементу для flex блоков. Входит в свойство-сокращение flex-flow.</p>
+        <pre><code>
+   селектор {
+	flex-direction: row | row-reverse | column | column-reverse;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">justify-content<span class='collapsible_name2'>Выравнивание по главной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство justify-content задает выравнивание элементов вдоль главной оси для flex блоков и по горизонтальной оси для гридов. Применяется к родительскому элементу</p>
+        <pre><code>
+   селектор {
+	justify-content: flex-start | flex-end | center | space-between 
+		| space-around; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">align-items<span class='collapsible_name2'>Выравнивание по поперечной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство align-items задает выравнивание элементов вдоль поперечной оси для flex блоков и по вертикальной оси для гридов. Применяется к родительскому элементу.</p>
+        <pre><code>
+   селектор {
+	align-items: flex-start | flex-end | center | baseline | 
+		stretch; 
+   }  
+        </code></pre>
+    </div>
+    <button class="collapsible01">flex-wrap<span class='collapsible_name2'>Многострочная расстановка блоков</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство flex-wrap задает многострочную расстановку блоков по главной оси. Применяется к родительскому элементу для flex блоков. Входит в свойство-сокращение flex-flow.</p>
+        <pre><code>
+   селектор {
+	flex-wrap: nowrap | wrap | wrap-reverse;
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">flex-flow<span class='collapsible_name2'>Сокращение для flex-direction и flex-wrap</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство flex-flow - это сокращение для flex-direction и flex-wrap. Значение по умолчанию: row nowrap. Применяется к родительскому элементу для flex блоков.</p>
+        <pre><code>
+   селектор {
+	flex-flow: направление_главной_оси многострочность;
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">align-self<span class='collapsible_name2'>Выравнивание блока по поперечной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство align-self задает выравнивание вдоль поперечной оси для отдельно взятого flex-блока и по вертикальной оси для отдельного элемента в гриде. По сути данное свойство представляет собой свойство align-items, но для конкретного блока.</p>
+        <pre><code>
+   селектор {
+	align-self: auto | flex-start | flex-end | center | baseline | stretch;
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">order<span class='collapsible_name2'>Порядок следования</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство order задает порядок следования отдельно взятого flex-блока внутри flex-контейнера. Применяется к конкретному flex блоку.</p>
+        <p>Своим значением свойство принимает положительное или отрицательное целое число. Чем меньше число - тем раньше будет стоять элемент, независимо от расположения в HTML коде относительно других элементов.</p>
+        <pre><code>
+   селектор {
+	order: положительное или отрицательное число;
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">flex-basis<span class='collapsible_name2'>Базовый размер блока</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство flex-basis задает размер конкретного flex-блока до применения к нему остальных flex свойств. В общем, свойство задает размер элемента вдоль главной оси. Это значит, что если главная ось горизонтальна - это свойство будет задавать ширину элементов, а если вертикальна - то высоту.</p>
+        <p>Применяется к конкретному flex блоку.</p>
+        <p>Данное свойство является составной частью свойства-сокращения flex.</p>
+        <pre><code>
+   селектор {
+	flex-basis: любые CSS единицы (и проценты) | auto;
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">flex-grow<span class='collapsible_name2'>"Жадность" блока</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство flex-grow определяет то, на сколько отдельный flex-блок может быть больше соседних элементов, если это необходимо.</p>
+        <p>Например, если все flex-блоки внутри flex-контейнера имеют flex-grow:1, то они будут одинакового размера. Если один из них имеет flex-grow:2, то он будет в 2 раза больше, чем все остальные.</p>
+        <p>Если суммарная ширина элементов меньше ширины родителя, то справа остается пустое пространство. При желании это пустое пространство можно пропорционально разделить между нашими элементами. Это делается с помощью свойства flex-grow, задаваемого флекс-элементам. Значением этого свойства служит безразмерное число.</p>
+        <p>Применяется к конкретному flex блоку.</p>
+        <p>Данное свойство входит как составная часть в свойство-сокращение flex.</p>
+        <pre><code>
+   селектор {
+	flex-grow: положительное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">flex-shrink<span class='collapsible_name2'>Фактор "сжимаемости" блока</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство flex-shrink определяет то, насколько flex-блок будет уменьшаться относительно соседних элементов внутри flex-контейнера в случае недостатка свободного места.</p>
+        <p>Например, если все flex-блоки внутри flex-контейнера имеют flex-shrink:1, то они будут одинакового размера. Если один из них имеет flex-shrink:2, то он будет в 2 раза больше, чем все остальные.</p>
+        <p>Применяется к конкретному flex блоку.</p>
+        <p>Данное свойство входит как составная часть в свойство-сокращение flex.</p>
+        <pre><code>
+   селектор {
+	flex-shrink: положительное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">flex<span class='collapsible_name2'>Сокращение для flex-basis, flex-grow и flex-shrink</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство flex сокращение для flex-basis, flex-shrink и flex-grow.</p>
+        <p>Применяется к конкретному flex блоку.</p>
+        <p>Порядок значения не имеет. Второй и третий параметры (flex-shrink, flex-basis) не обязательны.</p>
+        <pre><code>
+   селектор {
+	flex: значение для flex-grow значение для flex-shrink значение для flex-basis;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Гриды</p>
+    </div> 
+    <button class="collapsible01">grid-column-start<span class='collapsible_name2'>Начальная позиция элемента в столбце</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-column-start задает начальную позицию элемента в гриде или сетке по столбцам. Значением свойства может быть положительное или отрицательное число. Если задаем положительное число, то начальная позиция элемента отсчитывается слева направо. При указании отрицательного числа элемент будет располагаться в обратном порядке, т.е. справа налево.</p>
+        <pre><code>
+   селектор {
+	grid-column-start: положительное или отрицательное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-column-end<span class='collapsible_name2'>Конечная позиция элемента в столбце</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-column-end задает конечную позицию элемента в гриде или сетке до определенного столбца. Значением свойства может быть положительное или отрицательное число. Если задаем положительное число, то конечная позиция элемента отсчитывается слева направо. При указании отрицательного числа элемент будет располагаться в обратном порядке, т.е. справа налево.</p>
+        <p>Важный нюанс свойства grid-column-end состоит в том, что номер указанного столбца не включается в конечную позицию элемента - если мы зададим число 3, то элемент займет только первый и второй столбцы.</p>
+        <pre><code>
+   селектор {
+	grid-column-end: положительное или отрицательное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-column<span class='collapsible_name2'>Начальная и конечная позиции элемента в столбце</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-column задает начальную и конечную позиции элемента в гриде или сетке по столбцам. Значениями свойства могут быть положительные или отрицательные числа, указанные через слеш. Первое число обозначает начальную позицию элемента, второе - конечную позицию.</p>
+        <p>Если в качестве значения задаем положительное число, то позиция элемента отсчитывается слева направо. При указании отрицательного числа элемент будет располагаться в обратном порядке, т.е. справа налево.</p>
+        <pre><code>
+   селектор {
+	grid-column: начальная позиция / конечная позиция;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-row-start<span class='collapsible_name2'>Начальная позиция элемента в ряду</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-row-start задает начальную позицию элемента в гриде или сетке по рядам. Значением свойства может быть положительное или отрицательное число. Если задаем положительное число, то начальная позиция элемента отсчитывается сверху вниз. При указании отрицательного числа элемент будет располагаться в обратном порядке, т.е. снизу вверх.</p>
+        <pre><code>
+   селектор {
+	grid-row-start: положительное или отрицательное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-row-end<span class='collapsible_name2'>Конечная позиция элемента в ряду</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-row-end задает конечную позицию элемента в гриде или сетке по рядам. Значением свойства может быть положительное или отрицательное число. Если задаем положительное число, то начальная позиция элемента отсчитывается сверху вниз. При указании отрицательного числа элемент будет располагаться в обратном порядке, т.е. снизу вверх.</p>
+        <pre><code>
+   селектор {
+	grid-row-end: положительное или отрицательное число;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-row<span class='collapsible_name2'>Начальная и конечная позиции элемента в ряду</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-row задает начальную и конечную позиции элемента в гриде или сетке по рядам. Значениями свойства могут быть положительные или отрицательные числа, указанные через слеш. Первое число обозначает начальную позицию элемента, второе - конечную позицию. Если в качестве значения задаем положительное число, то позиция элемента отсчитывается сверху вниз. При указании отрицательного числа элемент будет располагаться в обратном порядке, т.е. снизу вверх.</p>
+        <pre><code>
+   селектор {
+	grid-row: начальная позиция / конечная позиция;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-template-columns<span class='collapsible_name2'>Количество и ширина столбцов в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-template-columns задает количество и ширину столбцов, которые будет занимать элемент в гриде или сетке. Свойство указывается в элементе-родителе и определяет ширину столбцов элементов-потомков. В значении свойства указываем ширину столбцов в любых единицах для размеров.</p>
+        <p>При указании в свойствах значений в пикселях размеры столбцов будут точно им соотвествовать. Если мы задаем слово auto, то столбцы будут заполнять все доступное пространство. Использование единицы fr (фракция) означает, что все пространство будет разбито на одинаковые доли. Преимуществом fr является его адаптивность к разным контейнерам или разрешениям экрана, поскольку fr просто расделяет их на указанное количество фракций без привязки к точному размеру в пикселях.</p>
+        <pre><code>
+   селектор {
+	grid-template-columns: ширина столбца;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-auto-columns<span class='collapsible_name2'>Количество и ширина столбцов в неявном гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-auto-columns задает количество и ширину столбцов, которые будет занимать элемент в неявном гриде. Неявный грид - грид, который создается автоматически, когда элементы выходят за рамки уже обозначенного грида. В значении свойства указываем ширину столбцов в любых единицах для размеров. Свойство указывается в элементе-родителе и определяет ширину столбцов элементов-потомков.</p>
+        <pre><code>
+   селектор {
+	grid-auto-columns: ширина столбца;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-template-rows<span class='collapsible_name2'>Количество и ширина рядов в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-template-rows задает количество и ширину рядов, которые будет занимать элемент в гриде или сетке. В значении свойства указываем ширину рядов в любых единицах для размеров. Свойство указывается в элементе-родителе и определяет ширину рядов элементов-потомков.</p>
+        <p>При указании в свойствах значений в пикселях размеры рядов будут точно им соотвествовать. Если мы задаем слово auto, то ряды будут заполнять все доступное пространство. Использование единицы fr (фракция) означает, что все пространство будет разбито на одинаковые доли. Преимуществом fr является его адаптивность к разным контейнерам или разрешениям экрана, поскольку fr просто расделяет их на указанное количество фракций без привязки к точному размеру в пикселях.</p>
+        <pre><code>
+   селектор {
+	grid-template-rows: ширина ряда;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-auto-rows<span class='collapsible_name2'>Количество и ширина рядов в неявном гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-auto-rows задает количество и ширину рядов, которые будет занимать элемент в неявном гриде. Неявный грид - грид, который создается автоматически, когда элементы выходят за рамки уже обозначенного грида. В значении свойства указываем ширину столбцов в любых единицах для размеров. Свойство указывается в элементе-родителе и определяет ширину рядов элементов-потомков.</p>
+        <pre><code>
+   селектор {
+	grid-auto-rows: ширина ряда;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-template-areas<span class='collapsible_name2'>Размещение элементов в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-template-areas задает размещение элементов в гриде. Вначале каждому элементу-потомку задаем имя с помощью свойства grid-area. Затем в элементе-родителе мы указываем свойство grid-template-areas, в котором перечисляем имена элементов-потомков в том порядке, в каком хотим их разместить в гриде.</p>
+        <pre><code>
+   селектор {
+	grid-template-areas: имена элементов-потомков;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-area<span class='collapsible_name2'>Имя элемента в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-area задает имя элементу в гриде. Эти имена указываются в свойстве grid-template-areas, в котором перечисляются имена элементов в том порядке, в котором их нужно разместить в гриде.</p>
+        <pre><code>
+   селектор {
+	grid-area: имя элемента;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">gap<span class='collapsible_name2'>Расстояние между элементами в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство gap задает расстояние между элементами в гриде. В значении свойства в элементе-родителе указываем нужное нам расстояние с единицами измерения - px, % и т.п.</p>
+        <pre><code>
+   селектор {
+	gap: расстояние;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">row-gap<span class='collapsible_name2'>Расстояние между рядами в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство row-gap задает расстояние между рядами в гриде. В значении свойства в элементе-родителе указываем нужное нам расстояние в любых единицах для размеров.</p>
+        <pre><code>
+   селектор {
+	row-gap: расстояние;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">column-gap<span class='collapsible_name2'>Расстояние между столбцами в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство column-gap задает расстояние между колонками в многоколоночном тексте, а также расстояние между столбцами в гриде. Значением свойства служат любые единицы для размеров либо ключевое слово normal (по умолчанию), при котором браузер сам подбирает оптимальное расстояние между колонками.</p>
+        <pre><code>
+   селектор {
+	column-gap: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid<span class='collapsible_name2'>Сокращённая запись свойств сетки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid представляет собой сокращенную форму записи всех свойств столбцов и рядов грид-контейнера. Все значения записывают в одной строчке через слеш.</p>
+        <p>Посредством grid в одной строке можно описать только один тип свойств - явные (grid-template-rows, grid-template-columns, grid-template-areas) или неявные (grid-auto-rows, grid-auto-columns, grid-auto-flow). Те свойства, которые остались неуказанными, принимают значения по умолчанию.</p>
+        <pre><code>
+   элемент {
+	grid: свойства сетки;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-auto-flow<span class='collapsible_name2'>Автоматическое размещение элементов в сетке</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-auto-flow задает автоматическое размещение элементов в гриде. Может иметь значения row - заполняет ряды элементами, column - столбцы, dense - размещает элементы на все пустые места в сетке; row dense - располагает элементы, заполняя каждый ряд и все свободные места сетки; column dense - заполняет элементами каждый столбец и все свободное место в гриде.</p>
+        <pre><code>
+   селектор {
+	grid-auto-flow: заполняемая часть грида;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">grid-template<span class='collapsible_name2'>Количество и ширина столбцов и рядов для элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство grid-template задает количество и ширину рядов и столбцов, которые будет занимать элемент в гриде или сетке и является сокращенной формой свойств grid-template-rows и grid-template-columns. Ряды и столбцы, на которых будет размещен элемент указываются через слеш. Свойство grid-template задается в элементе-родителе и определяет расположение элементов-потомков. В значении свойства указываем ширину рядов или столбцов в любых единицах для размеров.</p>
+        <p>При указании в свойствах значений в пикселях размеры элементов будут точно им соотвествовать. Если мы задаем слово auto, то столбцы и ряды будут заполнять все доступное пространство. Использование единицы fr (фракция) означает, что все пространство будет разбито на одинаковые доли. Преимуществом fr является его адаптивность к разным контейнерам или разрешениям экрана, поскольку fr просто расделяет их на указанное количество фракций без привязки к точному размеру в пикселях.</p>
+        <pre><code>
+   селектор {
+	grid-template: ширина и количество рядов / ширина и количество 
+		столбцов; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">align-content<span class='collapsible_name2'>Выравнивание по поперечной или вертикальной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство align-content задает выравнивание элементов вдоль поперечной оси для flex блоков и по горизонтальной оси для гридов. Применяется к родительскому элементу.</p>
+        <pre><code>
+   селектор {
+	align-content: flex-start | flex-end | center | space-between 
+		| space-around; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">justify-items<span class='collapsible_name2'>Выравнивание элементов внутри ячеек грида по горизонтальной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство justify-items задает выравнивание элементов внутри ячеек грида по горизонтальной оси. Наиболее наглядно выравнивание можно заметить при просмотре грида в отладчике браузера. Применяется к родительскому элементу.</p>
+        <pre><code>
+   селектор {
+	justify-items: flex-start | flex-end | center ;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">place-items<span class='collapsible_name2'>Выравнивание элементов внутри ячеек грида</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство place-items задает одновременное выравнивание столбцов и рядов, что значительно сокращает используемый нами код. Первым значением мы задаем расположение элемента по вертикальной, а вторым - по горизонтальной осям. Свойство place-items задается в элементе-родителе. Выполнение работы с place-items удобно просматривать через отладчик браузера.</p>
+        <pre><code>
+   селектор {
+	place-items: значение выравнивания по горизонтали значение выравнивания 
+		по вертикали; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">justify-self<span class='collapsible_name2'>Выравнивание отдельного элемента в гриде по горизонтальной оси</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство justify-self задает выравнивание отдельного элемента в гриде по горизонтальной оси. Свойство применяется в том элементе, который мы хотим выравнить.</p>
+        <pre><code>
+   элемент {
+	justify-self: start | center | end;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">place-self<span class='collapsible_name2'>Выравнивание отдельного элемента в гриде</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство place-self задает выравнивание отдельного элемента в гриде сразу по горизонтальной и вертикальной осям. В значении свойства первым пунктом указывается выравнивание по вертикали, вторым - по горизонтали. выравнивание отдельного элемента в гриде по горизонтальной оси. Свойство задается в том элементе, который мы хотим выравнить.</p>
+        <pre><code>
+   элемент {
+	place-self: значение для вертикали значение для горизонтали;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">place-content<span class='collapsible_name2'>Выравнивание по главной и поперечной осям</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство place-content задает выравнивание элементов по главной и поперечной осям для флекс элементов, и по горизонтальной и вертикальной осям для гридов. Первым значением указывается выравнивание по главной (горизонтальной) оси, вторым значением - поперечной (вертикальной). Свойство применяется к родительскому элементу.</p>
+        <pre><code>
+   селектор {
+	place-content: главная_ось поперечная_ось;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Позиционирование</p>
+    </div> 
+    <button class="collapsible01">position<span class='collapsible_name2'>Позиционирование</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство position задает способ позиционирования элементов. Данное свойство чаще всего используется совместно со свойствами top, right, bottom, left, которые устанавливают отступы сверху, справа, снизу, слева соответственно.</p>
+        <pre><code>
+   селектор {
+	position: absolute | relative | fixed | static | 
+		sticky; 
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">float<span class='collapsible_name2'>Плавающие элементы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство float - задает плавающие блоки, которые будут обтекаться текстом. Свойство float иногда всего используется совместно со свойством clear, которое отменяет обтекание элемента.</p>
+        <p>Хотя изначально float был придуман для вставки обтекаемых блоков в текст, в настоящее время он используется очень широко и нестандартным образом для построения макетов.</p>
+        <pre><code>
+   селектор {
+	float: left | right | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">z-index<span class='collapsible_name2'>Позиция по оси Z</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство z-index устанавливает, кто будет сверху в случае, если несколько элементов накладываются друг на друга.</p>
+        <pre><code>
+   селектор {
+	z-index: число | auto;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">::backdrop<span class='collapsible_name2'>Расположение после первого элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдоэлемент backdrop задает расположение указанному элементу ниже самого первого элемента по оси Z, но выше остальных элементов. Часто данный псевдоэлемент применяется для затемнения фона страницы, на котором выводятся модальные окошки. На сегодняшний день псевдоэлемент backdrop работает только с модальными окошками, которыми были созданы с помощью элемента &lt;dialog&gt;.</p>
+        <pre><code>
+   селектор::backdrop {
+	background: цвет для фона страницы;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">bottom<span class='collapsible_name2'>Позиция нижнего края элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство bottom задает положение нижнего края элемента. Значения для свойства можно записать с общепринятыми единицами размеров, например, в пикселях, дюймах, пунктах, процентах. Задаваемые значения могут быть и отрицательными числами, в этом случае элементы будут накладываться один на другой. Отсчет координат определяется свойством position, которое обычно принимает значение relative (относительное положение) или absolute (абсолютное положение).</p>
+        <pre><code>
+   селектор {
+	bottom: число с единице измерения или auto;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">top<span class='collapsible_name2'>Позиция верхнего края элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство top задает положение верхнего края элемента от верха родительского элемента. Значения для свойства можно записать с общепринятыми единицами размеров, например, в пикселях, дюймах, пунктах, процентах. Задаваемые значения могут быть и отрицательными числами, в этом случае элементы будут накладываться один на другой. Отсчет координат определяется свойством position, которое обычно принимает значение relative (относительное положение) или absolute (абсолютное положение).</p>
+        <pre><code>
+   селектор {
+	top: размер или auto;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">left<span class='collapsible_name2'>Позиция левого края элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство left задает левого края элемента. Значения для свойства можно записать с общепринятыми единицами размеров, например, в пикселях, дюймах, пунктах, процентах. Задаваемые значения могут быть и отрицательными числами, в этом случае элементы будут накладываться один на другой. Отсчет координат определяется свойством position, которое обычно принимает значение relative (относительное положение) или absolute (абсолютное положение).</p>
+        <pre><code>
+   селектор {
+	left: размер или auto;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">right<span class='collapsible_name2'>Позиция правого края элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство right задает правого края элемента. Значения для свойства можно записать с общепринятыми единицами размеров, например, в пикселях, дюймах, пунктах, процентах. Задаваемые значения могут быть и отрицательными числами, в этом случае элементы будут накладываться один на другой. Отсчет координат определяется свойством position, которое обычно принимает значение relative (относительное положение) или absolute (абсолютное положение).</p>
+        <pre><code>
+   селектор {
+	right: размер или auto;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">caption-side<span class='collapsible_name2'>Позиция заголовка таблицы</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство caption-side задает положение заголовка таблицы, созданного с помощью тега &lt;caption&gt;. У свойства может быть два значения: top (вверху таблицы, по умолчанию) или bottom (под таблицей).</p>
+        <pre><code>
+   селектор {
+	caption-side: top | bottom;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">clear<span class='collapsible_name2'>Отменяет float для вышестоящих элементов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство clear отменяет обтекание одного элемента другими, заданного свойством float. Может принимать следующие значения: none (отменяет действие себя же), both (отменяет float одновременно справа и слева), left (отменяет float слева), right (отменяет float справа).</p>
+        <pre><code>
+   селектор {
+	clear: none или left или right или both
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Колонки</p>
+    </div> 
+    <button class="collapsible01">column-count<span class='collapsible_name2'>Количество колонок</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство column-count задает рекомендуемое количество колонок в многоколоночном тексте. Их реальное количество может отличаться от заданного, в зависимости от ширины колонки и размера промежутка между ними.</p>
+        <pre><code>
+   селектор {
+	column-count: число | auto;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">column-gap<span class='collapsible_name2'>Расстояние между колонками</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство column-gap задает расстояние между колонками в многоколоночном тексте, а также расстояние между столбцами в гриде. Значением свойства служат любые единицы для размеров либо ключевое слово normal (по умолчанию), при котором браузер сам подбирает оптимальное расстояние между колонками.</p>
+        <pre><code>
+   селектор {
+	column-gap: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">column-rule<span class='collapsible_name2'>Граница между колонками</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство column-rule задает границу между колонками в многоколоночном тексте. По принимаемым значениям совпадает со свойством border.</p>
+        <pre><code>
+   селектор {
+	column-rule: значения;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">column-width<span class='collapsible_name2'>Ширина колонок</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство column-width задает ширину колонок в многоколоночном тексте. Значением свойства служат любые единицы для размеров, кроме процентов, либо ключевое слово auto (по умолчанию). При значении auto браузер сам подбирает оптимальную ширину колонок на основе column-count и column-gap.</p>
+        <pre><code>
+   селектор {
+	column-width: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">column-span<span class='collapsible_name2'>Растяжение элемента на колонки</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство column-span задает количество столбцов, на которые должен растягиваться элемент в многоколоночном тексте. Свойство значением принимает либо число 1, либо ключевое слово all. При значении 1 элемент будет охватывать одну колонку, а при значении all - все колонки.</p>
+        <pre><code>
+   селектор {
+	column-span: 1 | all;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">columns<span class='collapsible_name2'>Ширина и количество колонок</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство columns задает одновременно ширину и количество колонок в многоколоночном тексте. Является свойством-сокращением для column-count и column-width. Значение по умолчанию: auto auto.</p>
+        <pre><code>
+   селектор {
+	columns: ширина количество;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec6' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1'>Выбор</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Отрицание</p>
+    </div> 
+    <button class="collapsible01">:not<span class='collapsible_name2'>Отрицание</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс not задает отрицание, к примеру, p:not(.last) означает выбрать все абзацы, у которых нет класса last. Вложенные not не работают.</p>
+        <pre><code>
+   селектор:not(отрицание) {}
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| По позиции</p>
+    </div> 
+    <button class="collapsible01">:first-child<span class='collapsible_name2'>Первый потомок родителя</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс first-child выбирает элемент, который является первым потомком родителя.</p>
+        <pre><code>
+   селектор:first-child {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:last-child<span class='collapsible_name2'>Последний потомок родителя</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс last-child выбирает элемент, который является последним потомком родителя.</p>
+        <pre><code>
+   селектор:last-child {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:nth-child<span class='collapsible_name2'>n-ный потомок родителя</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс nth-child выбирает элемент, который является n-ным потомком родителя.</p>
+        <pre><code>
+   селектор:nth-child(число | odd | even | выражение) {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:nth-last-child<span class='collapsible_name2'>n-ный потомок родителя с конца</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс nth-last-child выбирает элемент, который является n-ным потомком родителя, отсчитывая с конца. Ведет себя аналогично nth-child, только отсчет ведется с конца.</p>
+        <pre><code>
+   селектор:nth-last-child(число | odd | even | выражение) {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:only-child<span class='collapsible_name2'>Единственный потомок родителя</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс only-child выбирает элемент, который является единственным потомком родителя.</p>
+        <pre><code>
+   селектор:only-child {}
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| По типу и позиции</p>
+    </div> 
+    <button class="collapsible01">:first-of-type<span class='collapsible_name2'>Первый потомок родителя заданного типа</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс first-of-type выбирает элемент, который является первым потомком родителя заданного типа. То есть, если написать h2:first-of-type - найдется первый h2 в родителе (в отличии от first-child, который найдет только тот h2, который стоит самым первым в родителе).</p>
+        <pre><code>
+   селектор:first-of-type {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:last-of-type<span class='collapsible_name2'>Последний потомок родителя заданного типа</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс last-of-type выбирает элемент, который является последним потомком родителя заданного типа. То есть, если я напишу h2:last-of-type - найдется последний h2 в родителе (в отличии от last-child, который найдет только тот h2, который стоит самым последним в родителе).</p>
+        <pre><code>
+   селектор:last-of-type {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:nth-of-type<span class='collapsible_name2'>n-ный потомок родителя заданного типа</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс nth-of-type выбирает элемент, который является n-ным потомком заданного типа.</p>
+        <p>То есть, если я напишу h2:nth-of-type(4) - найдется 4-тый h2 в родителе (в отличии от nth-child, который найдет только тот h2, который является 4-тым элементов в родителе).</p>
+        <pre><code>
+   селектор:nth-of-type(число | odd | even | выражение) {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:nth-last-of-type<span class='collapsible_name2'>n-ный потомок родителя заданного типа с конца</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс nth-last-of-type выбирает элемент, который является n-ным потомком родителя заданного типа, отсчитывая с конца. Ведет себя аналогично nth-of-type, только отсчет ведется с конца.</p>
+        <pre><code>
+   селектор:nth-last-of-type(число | odd | even | выражение) {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:only-of-type<span class='collapsible_name2'>Единственный потомок родителя заданного типа</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс only-of-type выбирает элемент, который является единственным потомком заданного типа.</p>
+        <pre><code>
+   селектор:only-of-type {}
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Разное</p>
+    </div> 
+    <button class="collapsible01">:empty<span class='collapsible_name2'>Пустой элемент</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс empty задает то, как будет выглядеть пустой элемент (не содержащий текста).</p>
+        <pre><code>
+   селектор:empty {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:lang<span class='collapsible_name2'>По языку текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс lang выбирает текст по языку, заданному в атрибуте lang. В качестве языка могут выступать следующие значения: ru — русский, en — английский, de — немецкий, fr — французский, it — итальянский и так далее.</p>
+        <pre><code>
+   селектор:lang(язык) {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">:target<span class='collapsible_name2'>Целевой элемент</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдокласс target задает то, как будет выглядеть целевой элемент. Целевой элемент - это тот, на id которого мы ссылаемся, указывая в конце узла его id после решетки # (пример: /css/target.html#my-id).</p>
+        <pre><code>
+   селектор:target {}
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Часть текста</p>
+    </div> 
+    <button class="collapsible01">::first-letter<span class='collapsible_name2'>Первая буква</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдоэлемент first-letter позволяет задать стили первой букве текста в элементе.</p>
+        <pre><code>
+   селектор::first-letter {}
+        </code></pre>
+    </div>
+    <button class="collapsible01">::first-line<span class='collapsible_name2'>Первая сторока текста</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдоэлемент first-line позволяет задать стили первой линии текста.</p>
+        <pre><code>
+   селектор::first-line {}
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec7' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1' style='margin-left: 44%;'>Анимация</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Плавные переходы</p>
+    </div> 
+    <button class="collapsible01">transition-duration<span class='collapsible_name2'>Время выполения</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство transition-duration устанавливает время выполнения плавного перехода transition.</p>
+        <pre><code>
+   селектор {
+	transition-duration: время в s или ms;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">transition-delay<span class='collapsible_name2'>Задержка перед выполнением</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство transition-delay устанавливает задержку перед запуском плавного перехода transition.</p>
+        <pre><code>
+   селектор {
+	transition-delay: время в s или ms;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">transition-property<span class='collapsible_name2'>Анимируемое свойство</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство transition-property устанавливает свойство, которое будет анимироваться плавным переходом transition. Значением следует передавать имя CSS свойства, которое будет анимироваться. Если задать значение all (оно задано по умолчанию) - будут анимированы все свойства сразу.</p>
+        <pre><code>
+   селектор {
+	transition-property: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">transition-timing-function<span class='collapsible_name2'>Скорость анимации</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство transition-timing-function устанавливает скорость изменения (ускорение) плавного перехода transition. Например, сначала медленно, потом быстро, потом медленно и т.д.</p>
+        <pre><code>
+   селектор {
+	transition-timing-function: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">transition<span class='collapsible_name2'>Сокращение для свойств плавного перехода</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство transition - сокращение для плавных переходов, позволяет одновременно задать transition-duration, transition-property, transition-timing-function и transition-delay.</p>
+        <p>Порядок свойств значение не имеет, однако время выполнения (transition-duration) должно стоять перед задержкой (transition-delay).</p>
+        <pre><code>
+   селектор {
+	transition: значение;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Анимация</p>
+    </div>
+    <button class="collapsible01">@keyframes<span class='collapsible_name2'>Ключевые кадры анимации</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Команда @keyframes задает ключевые кадры анимации. Ключевой кадр представляет собой различные свойства нашего CSS элемента, например, положение, размер, цвет и др., которые применяются к элементу в указанный момент времени.</p>
+        <pre><code>
+   @keyframes имя анимации {
+	ключевые кадры
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-name<span class='collapsible_name2'>Название анимации</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-name задает имя анимации (или анимаций), которая будет применяться к данному элементу. Имя анимации должно быть такое же, какое задано при определении ключевых кадров @keyframes.</p>
+        <pre><code>
+   селектор {
+	animation-name: имя анимации;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-duration<span class='collapsible_name2'>Время выполнения</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-duration устанавливает время выполнения анимации.</p>
+        <pre><code>
+   селектор {
+	animation-duration: время в s или ms;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-delay<span class='collapsible_name2'>Задержка перед выполнением</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-delay устанавливает задержку перед запуском анимации.</p>
+        <pre><code>
+   селектор {
+	animation-delay: время в s или ms;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-timing-function<span class='collapsible_name2'>Скорость анимации</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-timing-function устанавливает скорость изменения (ускорение) анимации. Например, сначала медленно, потом быстро, потом медленно и т.д.</p>
+        <pre><code>
+   селектор {
+	animation-timing-function: значение;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-iteration-count<span class='collapsible_name2'>Количество повторов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-iteration-count задает количество повторов анимации. По умолчанию анимации повторится только 1 раз и затем вернется в исходное состояние. Наше свойство, однако, позволяет задать определенное число повторений или вообще задать бесконечное повторение.</p>
+        <pre><code>
+   селектор {
+	animation-iteration-count: целое или дробное число | infinite;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-direction<span class='collapsible_name2'>Направление анимации</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-direction задает направление анимации. По умолчанию анимация повторится только 1 раз и затем вернется в исходное состояние, затем, если задана задержка animation-delay, будет ждать заданное время и потом цикл начнется сначала.</p>
+        <p>Данное свойство позволяет поменять это поведение, например, так чтобы анимация после окончания оставалась в том месте, где она закончилась, а не перескакивала в начальное положение.</p>
+        <p>Также можно задать такое поведение: анимация дойдет до крайней точки и вернется обратно (как в transition).</p>
+        <pre><code>
+   селектор {
+	animation-direction: normal | reverse | alternate | alternate-reverse;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-fill-mode<span class='collapsible_name2'>Состояние анимации</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-fill-mode устанавливает в каком положении останавливаться анимации после окончания. По умолчанию анимация возвращается в первоначальное значение и это может выглядеть не очень красиво.</p>
+        <pre><code>
+   селектор {
+	animation-fill-mode: backwards | forwards | both | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation-play-state<span class='collapsible_name2'>Пауза</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation-play-state позволяет задать состояние анимации: она проигрывается или стоит на паузе.</p>
+        <pre><code>
+   селектор {
+	animation-play-state: paused | running;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">animation<span class='collapsible_name2'>Анимация</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство animation - это свойство сокращение для анимации, позволяет задать все свойства для анимации одновременно: animation-name, animation-duration, animation-delay, animation-timing-function, animation-iteration-count, animation-direction, animation-fill-mode, animation-play-state.</p>
+        <p>Порядок значения не имеет, время выполнения анимации animation-duration обязательно должно стоять перед задержкой animation-delay. Обязательными являются только свойства animation-name и animation-duration.</p>
+        <p>Свойство может также принимать значение none, которое отключает анимацию совсем. Данное значение является значением по умолчанию.</p>
+        <pre><code>
+   селектор {
+	animation: значения;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec8' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1' style='margin-left: 41%;'>Трансформация</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Трансформация</p>
+    </div> 
+    <button class="collapsible01">transform<span class='collapsible_name2'>Трансформация</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство transform задает трансформации элемента, такие как вращение, масштабирование, скос, сдвиг и другие. Соответствующие трансформации записываются через пробел.</p>
+        <pre><code>
+   селектор {
+	transform: rotate(30deg) scale(3);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">transform-origin<span class='collapsible_name2'>Точка преобразования</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство transform-origin задает точку, относительно которой будут происходить трансформации элемента, задаваемые свойством transform. По умолчанию эта точка - центр элемента, и, например, вращение будет происходить относительно его центра. Однако, это поведение можно поменять и заставить элемент вращаться относительно своей стороны, угла или вообще относительно точки, которая лежит вне элемента.</p>
+        <p>Значения по осям Y и Z не являются обязательными, можно их опускать (они примут значения по умолчанию). Сдвиг точки по оси Z нужен для 3D трансформаций.</p>
+        <pre><code>
+   селектор {
+	transform-origin: X-ось Y-ось Z-ось;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Поворот</p>
+    </div>
+    <button class="collapsible01">rotate()<span class='collapsible_name2'>Поворот</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция rotate() задает поворот элемента на заданный угол. Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов. Положительное значение поворачивает по часовой стрелке, отрицательное - против. Поворот осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+        <pre><code>
+   селектор {
+	transform: rotate(угол);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">rotateX()<span class='collapsible_name2'>Поворот по оси X</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функции rotateX задает поворот относительно оси X в трехмерном пространстве Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов. Положительное значение поворачивает на нас, отрицательное - от нас. Поворот осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+        <pre><code>
+   селектор {
+	transform: rotateX(угол);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">rotateY()<span class='collapsible_name2'>Поворот по оси Y</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функции rotateY задает поворот относительно оси Y в трехмерном пространстве Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов. Положительное значение поворачивает на нас, отрицательное - от нас. Поворот осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+        <pre><code>
+   селектор {
+	transform: rotateY(угол);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">rotateZ()<span class='collapsible_name2'>Поворот по оси Z</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функции rotateZ задает поворот относительно оси Z в трехмерном пространстве Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов. Положительное значение поворачивает по часовой стрелке, отрицательное - против. Поворот осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+        <pre><code>
+   селектор {
+	transform: rotateZ(угол);
+   } 
+        </code></pre>
+    </div>
+    <button class="collapsible01">rotate3d()<span class='collapsible_name2'>Поворот по всем осям</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция rotate3d задает поворот элемента на заданный угол одновременно относительно оси X, Y, Z в трехмерном пространстве. Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов.</p>
+        <p>В качестве значений функция принимает 4 параметра, записанные через запятые. Первые три параметра определяют вектор оси в трехмерном пространстве, относительного которой будет осуществляться поворот. Четвертый параметр задает угол поворота.</p>
+        <pre><code>
+   селектор {
+	transform: rotate3d(X, Y, Z, угол);
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Масштабирование</p>
+    </div>
+    <button class="collapsible01">scale()<span class='collapsible_name2'>Масштабирование</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция scale масштабирует элемент: увеличивает или уменьшает его в несколько раз. Масштабирование осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+        <p>Может принимать один или два параметра, перечисляемых через запятую. Если параметров два - первый параметр задает масштабирование по горизонтали, а второй - по вертикали. Если параметр один то он задает масштабирование по горизонтали и вертикали одновременно.</p>
+        <p>Значением параметров служит целое или дробное число. Если оно больше 1 - элемент увеличивается, если меньше (например, 0.5) - элемент уменьшается. Если задать 1 - ничего не изменится (это и есть значение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	transform: scale(одно или два числа);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">scaleX()<span class='collapsible_name2'>Масштабирование по оси X</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция scaleX масштабирует элемент по оси X. Масштабирование осуществляется вокруг точки, задаваемой свойством transform-origin. Значением функции служит целое или дробное число. Если оно больше 1 - элемент увеличивается, если меньше (например, 0.5) - элемент уменьшается. Если задать 1 - ничего не изменится (это и есть значение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	transform: scaleX(число);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">scaleY()<span class='collapsible_name2'>Масштабирование по оси Y</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция scaleY масштабирует элемент по оси Y. Масштабирование осуществляется вокруг точки, задаваемой свойством transform-origin. Значением функции служит целое или дробное число. Если оно больше 1 - элемент увеличивается, если меньше (например, 0.5) - элемент уменьшается. Если задать 1 - ничего не изменится (это и есть значение по умолчанию).</p>
+        <pre><code>
+   селектор {
+	transform: scaleY(число);
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Скос</p>
+    </div>
+    <button class="collapsible01">skew()<span class='collapsible_name2'>Скос</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция skew задает скос элемента, превращая тем самым его из прямоугольника в параллелограмм. Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов. Скос осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+        <p>Может принимать один или два параметра, перечисляемых через запятую. Если параметров два - первый параметр задает скос по горизонтали, а второй - по вертикали. Если параметр один - то он задает скос по горизонтали (а не по обеим сторонам). Параметры могут быть как положительными, так и отрицательными.</p>
+        <pre><code>
+   селектор {
+	transform: skew(один или два угла);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">skewX()<span class='collapsible_name2'>Скос по оси X</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция skewX задает скос элемента по оси X, превращая тем его в параллелограмм. Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов. Угол может быть как положительными, так и отрицательными. Положительное значение делает скос влево, отрицательное - вправо. Скос осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+
+        <pre><code>
+   селектор {
+	transform: skewX(угол);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">skewY()<span class='collapsible_name2'>Скос по оси Y</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция skewY задает скос элемента по оси Y, превращая его в параллелограмм. Используется совместно со свойством transform. Значением свойства служит угол в любых единицах для углов. Угол может быть как положительными, так и отрицательными. Положительное значение делает скос вверх, отрицательное - вниз. Скос осуществляется вокруг точки, задаваемой свойством transform-origin.</p>
+        <pre><code>
+   селектор {
+	transform: skewY(угол);
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Сдвиг</p>
+    </div>
+    <button class="collapsible01">translate()<span class='collapsible_name2'>Сдвиг</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция translate задает сдвиг элемента по оси X и оси Y. Используется совместно со свойством transform. Значением свойства служат любые единицы для размера.</p>
+        <p>Может принимать один или два параметра. Если параметров два - первый параметр задает сдвиг по оси X, а второй - по оси Y. Если параметр один, то он задает сдвиг по оси X.</p>
+        <p>Значения параметров могут быть положительными и отрицательными. Положительное значение по оси X сдвигает вправо, отрицательное - влево. Положительное значение по оси Y сдвигает вниз, отрицательное - вверх.</p>
+        <pre><code>
+   селектор {
+	transform: translate(сдвиг по оси X, сдвиг по оси Y);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">translateX()<span class='collapsible_name2'>Сдвиг по оси X</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция translateX задает сдвиг элемента по оси X. Используется совместно со свойством transform. Значением свойства служат любые единицы для размера. Положительное значение сдвигает вправо, отрицательное - влево.</p>
+        <pre><code>
+   селектор {
+	transform: translateX(сдвиг);
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">translateY()<span class='collapsible_name2'>Сдвиг по оси Y</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция translateY задает сдвиг элемента по оси Y. Используется совместно со свойством transform. Значением свойства служат любые единицы для размера. Положительное значение сдвигает вниз, отрицательное - вверх.</p>
+        <pre><code>
+   селектор {
+	transform: translateY(сдвиг);
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec9' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1' style='margin-left: 46%;'>Вставки</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Вставка текста</p>
+    </div> 
+    <button class="collapsible01">::after<span class='collapsible_name2'>Текст после элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдоэлемент after вставляет текст после элемента. Используется только совместно со свойством content, которое задает текст, который следует вставить.</p>
+        <pre><code>
+   селектор::after {
+	content: 'текст';
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">::before<span class='collapsible_name2'>Текст до элемента</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Псевдоэлемент before вставляет текст перед элементом. Используется только совместно со свойством content, которое задает текст, который следует вставить.</p>
+        <pre><code>
+   селектор::before {
+	content: 'текст';
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">content<span class='collapsible_name2'>Текст для after и before</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство content позволяет вставлять в теги произвольный генерируемый текст. Применяется совместно с псевдоэлементами after и before.</p>
+        <pre><code>
+   селектор::after {
+	content: 'текст';
+   }
+   ИЛИ
+   селектор::before {
+	content: 'текст';
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">attr()<span class='collapsible_name2'>Содержимое атрибута</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Функция attr позволяет получить в CSS значение атрибута HTML тега.</p>
+        <pre><code>
+   селектор {
+	свойство: attr(имя, тип, значение);
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Счетчики</p>
+    </div> 
+    <button class="collapsible01">counter-increment<span class='collapsible_name2'>Автоматическая нумерация элементов</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство counter-increment задает автоматическую нумерацию элементов, например, абзацев или заголовков. Используется совместно со свойством counter-reset, псевдоэлементами after и before, свойством content, внутри которого используется функция counter.</p>
+        <pre><code>
+   селектор {
+	counter-increment: название [шаг] | none;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">counter-reset<span class='collapsible_name2'>Сброс счётчика</span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Свойство counter-reset сбрасывает значение счетчика в ноль. Данное свойство обязательно нужно использовать при работе с counter-increment, при этом оно устанавливается для родителя.</p>
+        <pre><code>
+   селектор {
+	counter-reset: название [начальное значение] | none;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' id='sec10' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1' style='margin-left: 46%;'>Селекторы</p>
+    </div>
+    <div class='symbol1' style='background-color:#151015; height: 45px; font-size: 23px;'>
+        <p class='SYMBOL' style="top: -15px; margin-left: 40px;">| Селекторы</p>
+    </div> 
+    <button class="collapsible01">Селектор по имени атрибута<span class='collapsible_name2'></span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Селектор по имени атрибута задает стиль элементу, у которого есть только указанный атрибут тега.</p>
+        <pre><code>
+   Пример:
+   &lt;p&gt;
+	&lt;input type="number"&gt;
+   &lt;/p&gt;
+   input[type] {
+	background-color: #C2DDFD;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">Селектор по значению атрибута<span class='collapsible_name2'></span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Селектор по имени атрибута задает стиль элементу, у которого есть только указанный атрибут тега.</p>
+        <pre><code>
+   Пример:
+   &lt;p&gt;
+	&lt;input type="number"&gt;
+   &lt;/p&gt;
+   input[type="number"] {
+	background-color: #000;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">Селектор по началу значения атрибута<span class='collapsible_name2'></span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Селектор по началу значения атрибута применяет стиль к элементу, у которого значение атрибута тега начинается с определенного текста.</p>
+        <pre><code>
+   Пример:
+   &lt;a href="file.html"&gt;link1&lt;/a&gt;
+   &lt;a href="https://code.mu"&gt;link2&lt;/a&gt;
+   
+   a[href^="https://"] {
+	color: red;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">Селектор по концу значения атрибута<span class='collapsible_name2'></span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Селектор по концу значения атрибута применяет стиль к элементу, у которого значение атрибута тега заканчивается на определенный текст.</p>
+        <pre><code>
+   Пример:
+   &lt;a href="file.html"&gt;link1&lt;/a&gt;
+   &lt;a href="https://code.mu"&gt;link2&lt;/a&gt;
+   
+   a[href$=".html"] {
+	color: red;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">Селектор атрибута по тексту<span class='collapsible_name2'></span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Селектор атрибута по тексту применяет стиль к элементу, у которого значение атрибута тега содержит определенный текст.</p>
+        <pre><code>
+   Пример:
+   &lt;a href="https://test.com"&gt;link1&lt;/a&gt;
+   &lt;a href="https://code.mu"&gt;link2&lt;/a&gt;
+   &lt;a href="http://my-test.com"&gt;link3&lt;/a&gt;
+   
+   a[href*="test"] {
+	color: green;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">Селектор по одному из значений атрибута<span class='collapsible_name2'></span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Селектор по одному из значений атрибута задает стиль элементу, у которого в атрибуте есть хотя бы одно из указанных значений. При этом все значения атрибута должны быть разделены пробелом.</p>
+        <pre><code>
+   Пример:
+   &lt;p class="test main"&gt;text1&lt;/p&gt;
+   &lt;p class="text"&gt;text2&lt;/p&gt;
+   &lt;p class="tag test"&gt;text3&lt;/p&gt;
+   
+   p[class~="test"] {
+	color: blue;
+   }
+        </code></pre>
+    </div>
+    <button class="collapsible01">Селектор атрибута по дефису в значении<span class='collapsible_name2'></span></button>
+    <div class="content1" style='background-color: #ecd9f4;'>
+        <p>Селектор атрибута по дефису в значении применяет стиль к элементу, значения атрибута которого разделены дефисом.</p>
+        <pre><code>
+   Пример:
+   &lt;p class="text-main-header"&gt;text1&lt;/p&gt;
+   &lt;p class="text-content"&gt;text2&lt;/p&gt;
+   &lt;p class="test-main"&gt;text3&lt;/p&gt;
+   &lt;p class="tag-test"&gt;text4&lt;/p&gt;
+   
+   p[class|="text"] {
+	color: red;
+   }
+        </code></pre>
+    </div>
+    <div class='symbol1' style='border-top:1px #422e52 solid;'>
+        <p class='SYMBOL1' style='margin-left: 46%;'></p>
+    </div>
+    <img class='css_back' style='height:50px; margin-bottom:-10px;' src='css_back5.jpeg' alt="">
+    <div class='ender' style='margin-top: 0px;'>
+        <div class='name'>
+            Electronic Information Technology
+        </div>
+        <div class='avtor'>
+            &copy;
+            2024 автор 
+        </div>
+        <div class='com'>
+            elinte.com
+        </div>
+    </div>
+    <script src='app.js'></script>
+    <script src='add.js'></script>
+    <script src='axs.js'></script>
+    <script>
+        $(document).ready(function(){
+            $('.scroll_css').on('click', function(e){
+                e.preventDefault();
+                var target = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top
+                }, 500);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.back-to-top').on('click', function(e){
+                e.preventDefault();
+                var target = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top
+                }, 500);
+            });
+        });
+    </script>
+</body>
+</html>
