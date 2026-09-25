@@ -1,0 +1,12 @@
+pre code.hljs{display:block;overflow-x:auto;padding:2px}
+code.hljs{padding:3px 5px}
+.hljs{background:#2d2333}
+.hljs,.hljs-attr,.hljs-function,.hljs-name,.hljs-number,.hljs-params,.hljs-subst,.hljs-type{color:#ffffff}
+.hljs-addition,.hljs-comment,.hljs-regexp,.hljs-section,.hljs-selector-pseudo{color:#a842a4}
+.hljs-built_in,.hljs-class,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-selector-class{color:#a84a94;font-weight:700}
+.hljs-code,.hljs-tag,.hljs-title,.hljs-variable{color:#ce87d8}
+.hljs-selector-attr,.hljs-string{color:#e56b91}
+.hljs-attribute,.hljs-deletion,.hljs-link,.hljs-symbol{color:#e07fb3}
+.hljs-literal,.hljs-meta,.hljs-selector-id{color:#d95aa0;font-weight:700}
+.hljs-name,.hljs-strong{font-weight:700}
+.hljs-emphasis{font-style:italic}
