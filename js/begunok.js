@@ -3,22 +3,22 @@ function imageComparison(selector) {
         .addClass('image-comparison')
         .prepend('<div class="image-comparison_before"></div>')
         .append('<button class="image-comparison_slider"></button>');
-    
+
     let images = comparison
         .find('img')
         .addClass('image-comparison_image')
         .css('max-width', comparison.width());
-    
+
     let before = comparison
         .find('.image-comparison_before')
         .append(images.eq(0));
-    
+
     comparison
         .find('.image-comparison_slider')
         .on('dragstart', () => false)
         .on('mousedown', function (e) {
             let slider = $(this);
-        
+
             let doc = $(document).on('mousemove', (e) => {
                 let offset = e.pageX - comparison.offset().left;
                 let width = comparison.width();
@@ -29,7 +29,7 @@ function imageComparison(selector) {
                 slider.css('left', offset + 'px');
                 before.css('width', offset + 'px');
             });
-        
+
             doc.on('mouseup', () => doc.off('mousemove'));
            })
         .on('keydown', function (e) {

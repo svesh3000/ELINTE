@@ -19,7 +19,7 @@ html {
 .header_text{
     margin-top: -4px;
     margin-left: 20px;
-    font-family: sans-serif;  
+    font-family: sans-serif;
     line-height: 12px;
     font-size: 14px;
 }
@@ -36,7 +36,7 @@ html {
     margin-left: auto;
     margin-top:8px;
     margin-right: 14px;
-    padding: 0px; 
+    padding: 0px;
 }
 .menu-holder{
     display: flex;
@@ -71,7 +71,7 @@ button{
     line-height: 37px;
     margin-left: -300px;
     margin-top: -95px;
-    padding-top:60px; 
+    padding-top:60px;
     padding-right: 100px;
     padding-left:30px;
     padding-bottom: 330px;
@@ -88,14 +88,14 @@ button{
     opacity:1;
 }
 .cross{
-    position: absolute; 
+    position: absolute;
     z-index: 4;
     margin-top:-24px;
     margin-left: 317px;
     opacity: 1;
 }
 .cross2{
-    position: absolute; 
+    position: absolute;
     z-index: 3;
     margin-top:-24px;
     margin-left: 317px;
@@ -131,7 +131,7 @@ button{
     transition: color 0.3s linear;
 }
 .blok1{
-    background-image: url(bg.png);
+    background-image: url(../media/bg.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ button{
     position: absolute;
     margin-left: 70px;
     margin-top: 100px;
-    font-family: sans-serif;  
+    font-family: sans-serif;
     text-align: left;
     color: white;
     font-size: 20px;
@@ -149,7 +149,7 @@ button{
     background-color: white;
 }
 .container{
-    margin: -150px 100px;  
+    margin: -150px 100px;
     padding-bottom: 70px;
 }
 .kv-holder{
@@ -205,7 +205,7 @@ button{
     position:absolute;
     background-color:white;
     width: 19.7%;
-    margin-left: -25px; 
+    margin-left: -25px;
     padding-bottom:28px;
     padding-top:1px;
     margin-top:-33px;
@@ -216,7 +216,7 @@ button{
     display: flex;
 }
 .why{
-    background-color: white;  
+    background-color: white;
 }
 .text-why1{
     font-family: sans-serif;
@@ -395,7 +395,7 @@ button{
     padding-top: 25px;
     padding-bottom: 25px;
     width: 480px;
-    background-color: rgb(59, 50, 50);  
+    background-color: rgb(59, 50, 50);
     margin-left:auto;
     margin-right:auto;
     font-family: monospace;
@@ -690,16 +690,16 @@ button{
     margin-top:30px;
 }
 .back-to-top {
-    position: fixed; 
-    bottom: 20px; 
-    right: 25px; 
-    font-size: 24px; 
-    color: #fff; 
-    background: #3f2341; 
-    padding: 11px 14px; 
-    border-radius: 100px; 
-    cursor: pointer; 
-    z-index: 1000; 
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    font-size: 24px;
+    color: #fff;
+    background: #3f2341;
+    padding: 11px 14px;
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 1000;
     text-decoration: none;
 }
 .back-to-top:hover {
@@ -719,7 +719,7 @@ button{
     z-index: 1000;
     text-decoration: none;
 }
- 
+
 .back-to-top1:hover {
     background: #1c110e;
     transition: 0.5s;
@@ -852,9 +852,9 @@ button{
     border-radius: 50%;
     background-color: #62d38d;
 }
-.image-comparison_slider:hover, 
+.image-comparison_slider:hover,
 .image-comparison_slider:hover::before,
-.image-comparison_slider:focus, 
+.image-comparison_slider:focus,
 image-comparison_slider:focus::before
  {
     background-color: #1d8144;
